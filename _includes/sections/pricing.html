@@ -1,0 +1,29 @@
+<div class="section {{ include.bg }}">
+  <div class="container">
+    <h1 class="text-center">Выберите свой вариант участия в курсе</h1>
+    <div class="row">
+      {% for item in include.pricing %}
+        {% capture color %}{% cycle 'info', 'success', 'danger' %}{% endcapture %}
+        <div class="col-sm-4">
+          <div style="border: 1px solid rgb(221, 221, 221); border-radius: 6px; margin-bottom: 20px;" class="bg-clouds">
+            <div style="padding: 20px 15px;" class="{% cycle 'bg-peter-river', 'bg-emerald', 'bg-alizarin' %} text-center">
+              <h3 style="color: white; margin: 0;">{{ item.name }}</h3>
+            </div>
+            <p class="lead text-center" style="padding: 20px 15px; font-size: 27px; margin: 0px;"><strong>&euro;{{ item.price }}</strong></p>
+            <ul class="list-group list-group-flush" style="margin: -1px;">
+              {% for feature in item.features %}
+                <li class="list-group-item">
+                  <i class="fa fa-check text-{{ color }}" style="float:left; margin-top: 5px;"></i>
+                  <div style="padding-left: 30px;">{{ feature }}</div>
+                </li>
+              {% endfor %}
+            </ul>
+            <div style="padding: 20px 15px;">
+              <a class="btn btn-lg btn-block btn-{{ color }} order-btn" href="{{ item.href }}" data-id="{{ item.product }}" data-title="{{ item.name }}" href="">Записаться</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

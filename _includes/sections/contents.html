@@ -1,0 +1,19 @@
+<div class="section contents {{ include.bg }}">
+  <div class="container">
+    <h2 class="text-center" style="margin-bottom: 60px;">{{ include.contents.title }}</h2>
+    <div class="row">
+      {% for item in include.contents.items %}
+        <div class="col-xs-4 col-xs-offset-{% cycle 2, 1 %}">
+          <p style="font-size: 20px; margin-bottom: 2em;">
+            <i class="fa fa-check-circle-o fa-2x text-success" style="float: left; margin-left: -50px; margin-top: 0px;"></i>
+            {{ item }}
+          </p>
+        </div>
+        {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+        {% if thecycle == 'even' %}
+          <div class="clearfix"></div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

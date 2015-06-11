@@ -1,0 +1,8 @@
+<div class="section {{ include.bg }}" style="border-top: 1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; margin-bottom: -1px;">
+  <div class="container text-center">
+    <h1>{{ include.testimonials.title }}</h1>
+    <img src="{{ include.testimonials.photo }}" class="img-circle" style="width: 100px; height: 100px;">
+    {{ include.testimonials.text | markdownify }}
+    <b>{{ include.testimonials.name | markdownify }}</b>
+  </div>
+</div>

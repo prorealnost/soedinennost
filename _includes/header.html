@@ -1,0 +1,21 @@
+<header>
+  <nav class="navbar navbar-static-top navbar-inverse">
+    <div class="container">
+      <a class="navbar-brand" href="/">{{ site.name }}</a>
+      <ul class="nav navbar-nav navbar-main">
+        {% for link in site.navigation %}
+          {% assign active = nil %}
+          {% if page.url == link.url or page.layout == link.layout %}
+            {% assign active = 'active' %}
+          {% endif %}
+
+          <li class="{{ active }}">
+            <a href="{{ link.url }}">
+              {{ link.text }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav><!-- /navbar -->
+</header>

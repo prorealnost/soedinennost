@@ -1,0 +1,31 @@
+<div class="section features {{ include.bg }}">
+  <div class="container">
+    {% if include.features.title %}
+      <h1 class="title">{{ include.features.title }}</h1>
+    {% endif %}
+
+    <div class="row">
+      <div class="col-xs-4 text-center">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x text-nephritis"></i>
+          <i class="fa fa-check fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ include.features.feature1 | markdownify }}
+      </div>
+      <div class="col-xs-4 text-center">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x text-orange"></i>
+          <i class="fa fa-diamond fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ include.features.feature2 | markdownify }}
+      </div>
+      <div class="col-xs-4 text-center">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x text-peter-river"></i>
+          <i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ include.features.feature3 | markdownify }}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<div class="section head {{ include.bg }}" style="background-image: url({{ include.header.background }}); background-size: cover; background-position: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 text-center">
+        <div class="flex-video widescreen">
+          <iframe width="853" height="480" src="//www.youtube.com/embed/{{ include.header.video }}?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-xs-4">
+        <h1 style="margin-top: 0;">{{ include.header.title }}</h1>
+        <p class="lead">
+          {{ include.header.subtitle }}
+        </p>
+        <a class="btn btn-primary btn-lg" href="#pricing">Записаться</a>
+      </div>
+    </div>
+  </div>
+</div>
