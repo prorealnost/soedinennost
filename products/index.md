@@ -1,0 +1,32 @@
+---
+layout: page
+title: Продукты
+permalink: /products/
+---
+
+## [Как определиться с выбором цели](http://goals.prorealnost.com)
+
+Практическая пошаговая инструкция
+
+[Подробности тут](http://goals.prorealnost.com)
+
+---
+
+## [Как порвать трудное дело](/tear/)
+
+Практическая пошаговая инструкция
+
+[Подробности тут](/tear/)
+
+---
+
+## [Победитель](http://money.prorealnost.com/offer/trening-pobeditel)
+
+**Как стать человеком, который легко достигает прорывных результатов**
+
+Интенсивный практический онлайн-тренинг
+
+[Подробности тут](http://money.prorealnost.com/offer/trening-pobeditel)
+
+---
+
