@@ -28,6 +28,8 @@ navigation:
   layout: answer
 - text: Коучинг
   url: /coaching/
+- text: Продукты
+  url: /products/
 - text: О проекте
   url: /about/
 
