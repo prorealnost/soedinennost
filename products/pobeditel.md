@@ -83,6 +83,45 @@ format: |
 
 {% include sections/header.html header=page.header bg="bg-primary" %}
 
+
+<div class="section" style="background-color: #f9f9f9; border: 1px solid #ccc;">
+  <div class="container">
+    <h1 class="text-center">Почему ты до сих пор не победитель?</h1>
+    <div class="row">
+      <div class="col-xs-3">
+        <p class="pull-right text-danger"><i class="fa fa-thumbs-o-down fa-5x"></i></p>
+      </div>
+      <div class="col-xs-9">
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-thumbs-o-down"></i><b>Тебе лень</b> потому что ты занят не тем, что тебе важно</li>
+          <li><i class="fa-li fa fa-thumbs-o-down"></i><b>Тебе трудно</b> потому что ты делаешь не то, что получается</li>
+          <li><i class="fa-li fa fa-thumbs-o-down"></i><b>Тебе скучно</b> потому что ты не развиваешься в процессе</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="background-color: #fcfcfc; border-bottom: 1px solid #ccc;">
+  <div class="container">
+    <h1 class="text-center">Ты научишься <b>достигать целей просто</b></h1>
+    <div class="row">
+      <div class="col-xs-3">
+        <p class="pull-right text-info"><i class="fa fa-thumbs-o-up fa-5x"></i></p>
+      </div>
+      <div class="col-xs-9">
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-thumbs-o-up"></i>Принимать свои <b>настоящие желания</b></li>
+          <li><i class="fa-li fa fa-thumbs-o-up"></i>Достигать только действительно <b>важные цели</b></li>
+          <li><i class="fa-li fa fa-thumbs-o-up"></i>Использовать свои <b>сильные стороны</b></li>
+          <li><i class="fa-li fa fa-thumbs-o-up"></i><b>Развиваться</b> в процессе</li>
+          <li><i class="fa-li fa fa-thumbs-o-up"></i><b>Перестать заставлять себя</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% include sections/features.html features=page.features bg="" %}
 
 {% include sections/contents.html contents=page.contents bg="bg-primary" %}
