@@ -161,7 +161,7 @@ format: |
       <div class="col-sm-6 col-md-4">
         <h2>Нажми на кнопку:</h2>
 
-        <a class="btn btn-lg btn-primary" style="padding: 10px 20px;" href="http://money.prorealnost.com/offer/order-kak-porvat-trudnoe-delo">
+        <a class="btn btn-lg btn-primary" style="padding: 10px 20px;" href="http://prorealnost.com/shot/55">
           <span style="font-size: 120%;"><b>Записаться на тренинг</b></span>
           <br/>
           и совершить прорыв в жизни
