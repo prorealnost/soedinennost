@@ -20,13 +20,13 @@ permalink: /products/
 
 ---
 
-## [Победитель](http://money.prorealnost.com/offer/trening-pobeditel)
+## [Победитель](/pobeditel/)
 
 **Как стать человеком, который легко достигает прорывных результатов**
 
 Интенсивный практический онлайн-тренинг
 
-[Подробности тут](http://money.prorealnost.com/offer/trening-pobeditel)
+[Подробности тут](/pobeditel/)
 
 ---
 
