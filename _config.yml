@@ -26,6 +26,8 @@ navigation:
 - text: Ответы
   url: /ask/
   layout: answer
+- text: Тренинг
+  url: /pobeditel/
 - text: Коучинг
   url: /coaching/
 - text: Продукты
