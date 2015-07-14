@@ -148,7 +148,7 @@ format: |
       <div class="col-sm-6 col-md-4 col-md-offset-2">
         <h2>Цена:</h2>
 
-        &euro;300 или 19000&nbsp;рублей
+        &euro;400 или 26000&nbsp;рублей
 
         <h2>Формат:</h2>
 
