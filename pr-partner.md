@@ -133,12 +133,6 @@ permalink: /pr-partner/
 <td style="text-align: right;">26000 руб.</td>
 <td style="text-align: right;">139000 руб.</td>
 </tr>
-<tr>
-<td>Бизнес</td>
-<td><a href="http://biznes.ninja/bd/">Быстрые деньги</a></td>
-<td style="text-align: right;">199 &euro;</td>
-<td style="text-align: right;">2000 &euro;</td>
-</tr>
 </tbody></table>
 
 ----
