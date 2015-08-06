@@ -85,7 +85,7 @@ permalink: /pr-partner/
 - [подкаст «Школа соблазна»](http://shkola-soblazna.podster.fm/)
 - интервью [Радио Метро](http://radiometro.ru/)
 - интервью телеканалу СТБ
-- участие в шоу «Парк» на Первом канале
+- участие в шоу [«Парк» на Первом канале](https://vk.com/nickvorobiov?z=photo684697_376027333%2Falbum684697_00%2Frev)
 - мастер-классы по отношениям в России, Украине, Чехии, Казахстане — от 30 до 1200 человек
 - [реклама на уличных лайтбоксах](https://www.dropbox.com/s/rdjop90fviuzncl/nsk_proluboff.jpg?dl=0)
 - [акция на Биглионе](https://www.dropbox.com/s/0umrzpwn0rk1f52/biglion-20110729-day6.png?dl=0)
