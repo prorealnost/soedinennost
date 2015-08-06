@@ -150,11 +150,11 @@ permalink: /pr-partner/
 
 1. Привлекаем внимание к себе в популярных телевизионных передачах и в подкастах
 2. Захватываем внимание статьями, аудио и видео, ответами на вопросы на сайтах
-  - http://prorealnost.com
-  - http://prolubov.com
-  - http://soedinennost.com
-  - http://amoral.ninja
-  - http://biznes.ninja
+  - [prorealnost.com](http://prorealnost.com/)
+  - [prolubov.com](http://prolubov.com/)
+  - [soedinennost.com](http://soedinennost.com/)
+  - [amoral.ninja](http://amoral.ninja/)
+  - [biznes.ninja](http://biznes.ninja/)
 3. Собираем контакты (телефоны и емейлы) на бесплатные продукты на сайтах
 4. Звоним по этим контактам и продаём по телефону
 5. Не купившим сразу — посылаем емейлы, и время от времени звоним снова
