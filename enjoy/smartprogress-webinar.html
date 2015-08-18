@@ -3,7 +3,6 @@ layout: base
 title: Вебинар&nbsp;Николая&nbsp;Воробьёва по&nbsp;достижению&nbsp;целей
 subtitle: 19 августа в 19:00 мск
 permalink: /smartprogress-webinar/
-vk_app_id: 2264967
 stream: gkngp9nyrJU
 event: https://plus.google.com/events/ce4lsecmcqpc30r7o5uqkb8ub1s
 ---
@@ -28,7 +27,7 @@ event: https://plus.google.com/events/ce4lsecmcqpc30r7o5uqkb8ub1s
 
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 <script type="text/javascript">
-VK.init({apiId: {{ page.vk_app_id }}, onlyWidgets: true});
+VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
 VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, '{{ page.stream }}');
 </script>
 

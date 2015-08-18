@@ -35,6 +35,18 @@ navigation:
 - text: О проекте
   url: /about/
 
+collections:
+  quests:
+    output: true
+    permalink: /quests/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: quests
+    values:
+      layout: page
+
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus: soedinennost
@@ -80,3 +92,4 @@ exclude:
 
 # Какой проект yo содержит шоты для этого фронтенда
 yo: prorealnost
+vk_app_id: 5037595
