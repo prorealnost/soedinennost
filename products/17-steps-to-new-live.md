@@ -1,6 +1,6 @@
 ---
 layout: landing
-permalink: /17-steps-to-forbes/
+permalink: /17-steps-to-new-live/
 title: 17 шагов, чтобы привести свою жизнь в порядок
 header: 
   title: 17 шагов, чтобы привести свою жизнь в порядок
