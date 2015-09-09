@@ -38,7 +38,7 @@ header:
           {{ page.header.subtitle }}
         </p>
         {{ page.header.text | markdownify }}
-        <a class="btn btn-info btn-lg" href="#pricing">{{ page.header.buttontitle }}</a>
+        <a class="btn btn-info btn-lg" href="http://prorealnost.com/shot/58">{{ page.header.buttontitle }}</a>
       </div>
     </div>
   </div>
