@@ -1,0 +1,405 @@
+.version.index /* version checker */
+{
+	color: #0000E4;
+	background-color: #050EBC;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 1427px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -36px;
+	padding-bottom: 62px;
+	width: 0.01px;
+}
+
+#pu75
+{
+	width: 0.01px;
+	margin-left: -100px;
+}
+
+#u75
+{
+	z-index: 2;
+	height: 254px;
+	background: #FFF89D url("../images/las-vegas-business-plan_.jpg") no-repeat center top;
+	background-size: cover;
+}
+
+#u75-bw
+{
+	z-index: 2;
+	height: 254px;
+}
+
+#u93
+{
+	z-index: 3;
+	height: 254px;
+	background-color: #244C6F;
+	opacity: 0.34;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=34)";
+	filter: alpha(opacity=34);
+}
+
+#u93-bw
+{
+	z-index: 3;
+	height: 254px;
+}
+
+#u89-4
+{
+	z-index: 4;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 46px;
+	left: 128px;
+}
+
+#u91-4
+{
+	z-index: 8;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 43px;
+	left: 127px;
+}
+
+#u94-4
+{
+	z-index: 12;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 276px;
+	left: 648px;
+}
+
+#u98-4
+{
+	z-index: 20;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 359px;
+	left: 647px;
+}
+
+#u101-7
+{
+	z-index: 25;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 399px;
+	left: 626px;
+}
+
+#u149-6
+{
+	z-index: 32;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 531px;
+	left: 726px;
+}
+
+#u208
+{
+	z-index: 58;
+	width: 54px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 531px;
+	left: 647px;
+}
+
+#u280
+{
+	z-index: 71;
+	width: 491px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 176px;
+	left: 121px;
+}
+
+#u286-4
+{
+	z-index: 73;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 491px;
+	left: 648px;
+}
+
+#ppu239
+{
+	width: 0.01px;
+	margin-left: 100px;
+	margin-top: 11px;
+}
+
+#u239
+{
+	z-index: 78;
+	position: relative;
+	width: 312px;
+	margin-right: -10000px;
+	margin-top: 1px;
+}
+
+#u239_states
+{
+	height: 66px;
+	width: 312px;
+	vertical-align: top;
+	background: url("../images/u239_states.png") no-repeat 0px 0px;
+}
+
+#u239:hover #u239_states
+{
+	background: url("../images/u239_states-r.png") no-repeat 0px 0px;
+}
+
+#u189
+{
+	z-index: 52;
+	width: 51px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	left: 447px;
+}
+
+#u150-4
+{
+	z-index: 38;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	left: 526px;
+}
+
+#pu97-4
+{
+	width: 0.01px;
+	margin-left: 27px;
+	margin-top: -3px;
+}
+
+#u97-4
+{
+	z-index: 16;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 38px;
+}
+
+#pu195
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-left: 520px;
+}
+
+#u195
+{
+	z-index: 54;
+	width: 54px;
+	background-color: transparent;
+	position: relative;
+}
+
+#u201
+{
+	z-index: 56;
+	width: 54px;
+	background-color: transparent;
+	margin-top: 11px;
+	position: relative;
+}
+
+#pu157-6
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-left: 599px;
+}
+
+#u157-6
+{
+	z-index: 42;
+	display: block;
+	vertical-align: top;
+	position: relative;
+}
+
+#u158-4
+{
+	z-index: 48;
+	display: block;
+	vertical-align: top;
+	margin-top: 11px;
+	position: relative;
+}
+
+#pu232
+{
+	width: 0.01px;
+	margin-left: -100px;
+	margin-top: 24px;
+}
+
+#u232
+{
+	z-index: 24;
+	height: 528px;
+	-pie-box-shadow: 6px 6px 8px #7F7F7F;
+	box-shadow: 6px 6px 8px rgba(0,0,0,0.5);
+	background: #FFFFFF url("../images/abstraccshiya.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+#u232-bw
+{
+	z-index: 24;
+	height: 528px;
+}
+
+#u292
+{
+	z-index: 80;
+	height: 528px;
+	background-color: #0090AF;
+	opacity: 0.23;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=23)";
+	filter: alpha(opacity=23);
+}
+
+#u292-bw
+{
+	z-index: 80;
+	height: 528px;
+}
+
+#u271-16
+{
+	z-index: 81;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 181px;
+	left: 492px;
+}
+
+#u275-4
+{
+	z-index: 97;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 126px;
+	left: 492px;
+}
+
+#u265
+{
+	z-index: 101;
+	width: 300px;
+	background-color: transparent;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 145px;
+	left: 111px;
+}
+
+#u258-4
+{
+	z-index: 103;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 35px;
+	left: 394px;
+}
+
+#pu277-4
+{
+	width: 0.01px;
+	margin-left: 22px;
+	margin-top: 15px;
+}
+
+#u277-4
+{
+	z-index: 60;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 29px;
+}
+
+#u278-7
+{
+	z-index: 64;
+	display: block;
+	vertical-align: top;
+	margin-bottom: -2px;
+	position: relative;
+	margin-right: -10000px;
+	left: 588px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

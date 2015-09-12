@@ -1,0 +1,43 @@
+<manifest alg="2" build="2015.0.2.310" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" domain="steps.com" resolutions="1x" timestamp="1441974157113">
+  <folder name="css">
+    <file name="site_global.css" crc="4052507572"/>
+    <file name="index.css" crc="3825536700" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="196614522" ref="index"/>
+    <file name="museutils.js" crc="275725342" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="185257658" ref="index"/>
+    <file name="jquery.watch.js" crc="3999102769" ref="index"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="las-vegas-business-plan_.jpg" crc="4277146518" ref="index"/>
+    <file name="u89-4.png" crc="4002095801" ref="index"/>
+    <file name="u91-4.png" crc="87325775" ref="index"/>
+    <file name="u94-4.png" crc="3785795363" ref="index"/>
+    <file name="u98-4.png" crc="391803850" ref="index"/>
+    <file name="u101-7.png" crc="4275304131" ref="index"/>
+    <file name="u149-6.png" crc="4042211799" ref="index"/>
+    <file name="image_.png" crc="4086649173" seo="true" ref="index"/>
+    <file name="mockup1.png" crc="3799689980" seo="true" ref="index"/>
+    <file name="u286-4.png" crc="3935063715" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="u239_states.png" crc="354424273" ref="index"/>
+    <file name="u239_states-r.png" crc="3991871955" ref="index"/>
+    <file name="w512h5121377939972185093dashboardspeedstreamline.png" crc="3816726745" seo="true" ref="index"/>
+    <file name="u150-4.png" crc="4258917476" ref="index"/>
+    <file name="u97-4.png" crc="4245602273" ref="index"/>
+    <file name="1 (1)_.png" crc="67292293" seo="true" ref="index"/>
+    <file name="eco_green_growth_1_.png" crc="241545756" seo="true" ref="index"/>
+    <file name="u157-6.png" crc="273791074" ref="index"/>
+    <file name="u158-4.png" crc="272468822" ref="index"/>
+    <file name="abstraccshiya.jpg" crc="3942504662" ref="index"/>
+    <file name="u271-16.png" crc="231277205" ref="index"/>
+    <file name="u275-4.png" crc="4092825353" ref="index"/>
+    <file name="untitled-1.png" crc="418222872" seo="true" ref="index"/>
+    <file name="u258-4.png" crc="4124643411" ref="index"/>
+    <file name="u277-4.png" crc="4222917674" ref="index"/>
+    <file name="u278-7.png" crc="4193504042" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3820354062" seo="true" mt="1441974122401" redirect="true"/>
+</manifest>
