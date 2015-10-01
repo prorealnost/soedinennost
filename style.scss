@@ -209,3 +209,34 @@ header {
     margin-top: 1em;
   }
 }
+
+.bg-clouds-darker {
+  background-color: darken(#ECF0F1, 3%);
+}
+
+.bg-clouds-lighter {
+  background-color: lighten(#ECF0F1, 3%);
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-strong {
+  font-weight: bold;
+}
+
+$numbercirclebase: 35px;
+
+.numbercircle {
+  display: inline-block;
+  height: $numbercirclebase;
+  width: $numbercirclebase;
+  line-height: $numbercirclebase;
+
+  -moz-border-radius: $numbercirclebase / 2; /* or 50% */
+  border-radius: $numbercirclebase / 2; /* or 50% */
+
+  text-align: center;
+  font-size: 1.1em;
+}
