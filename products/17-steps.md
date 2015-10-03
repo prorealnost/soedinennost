@@ -60,10 +60,33 @@ author:
 <div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
   <div class="container">
     <div class="row">
-      <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
-      <p class="lead">
-        {{ page.header.subtitle }}
-      </p>
+      <div class="col-md-12">
+        <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
+        <p class="lead">
+          {{ page.header.subtitle }}
+        </p>
+      </div>
+      {% comment %}
+      <div class="col-md-4 col-md-offset-1">
+        <div class="well">
+          <h2 align="center" style="color: black; margin-top: 0; text-shadow: none;">
+            Получить инструкцию
+          </h2>
+          <form action="http://prorealnost.prorealnost.com/shot/59" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Скачать</button>
+          </form>
+        </div>
+      </div>
+      {% endcomment %}
     </div>
   </div>
 </div>
@@ -134,9 +157,37 @@ author:
 
 <div class="section">
   <div class="container">
+    <h1 align="center">
+      Получить инструкцию
+    </h1>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="well">
+          <form action="http://prorealnost.prorealnost.com/shot/59" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control input-lg" placeholder="Имя" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" rules="phone" class="form-control input-lg" placeholder="Телефон" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control input-lg" placeholder="Емейл" required="required"/>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Получить инструкцию</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% comment %}
+<div class="section">
+  <div class="container">
     <div style="width: 500px; margin: 0 auto;">
       <script>window.gcEmbedId=1953;</script>
       <script src='http://nv.prorealnost.com/public/js/embed.js'></script>
     </div>
   </div>
 </div>
+{% endcomment %}
