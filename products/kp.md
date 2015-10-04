@@ -40,17 +40,17 @@ pricing:
   - 
     name: "Один год"
     price: "3000"
-    href: "http://prolubov.prorealnost.com/shot/59"
+    href: "http://prorealnost.prorealnost.com/shot/69"
     button: "на один год"
   - 
     name: "Полгода"
     price: "4000"
-    href: "http://prolubov.prorealnost.com/shot/62"
+    href: "http://prorealnost.prorealnost.com/shot/66"
     button: "на полгода"
   - 
     name: "Три месяца"
     price: "5000"
-    href: "http://prolubov.prorealnost.com/shot/65"
+    href: "http://prorealnost.prorealnost.com/shot/63"
     button: "на три месяца"
 ---
 
