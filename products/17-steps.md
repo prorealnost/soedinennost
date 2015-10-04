@@ -163,7 +163,7 @@ author:
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="well">
-          <form action="http://prorealnost.prorealnost.com/shot/59" method="POST">
+          <form action="http://prorealnost.prorealnost.com/shot/73" method="POST">
             <div class="form-group">
               <input type="text" name="name" class="form-control input-lg" placeholder="Имя" required="required"/>
             </div>
