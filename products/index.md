@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Продукты
+title: Курсы и тренинги
 permalink: /products/
 ---
 

@@ -6,7 +6,7 @@
 name: Соединённость
 
 # Short bio or description (displayed in the header)
-description: 
+description: Повышение твоей эффективности
 
 # Slogan (displayed in the footer)
 slogan: Лёгкий способ создавать грандиозные результаты
@@ -21,8 +21,6 @@ image: "http://soedinennost.com/images/og-image.jpg"
 #
 
 navigation:
-- text: Блог
-  url: /
 - text: Ответы
   url: /ask/
   layout: answer
@@ -30,7 +28,7 @@ navigation:
   url: /pobeditel/
 - text: Коучинг
   url: /coaching/
-- text: Продукты
+- text: Курсы и тренинги
   url: /products/
 - text: О проекте
   url: /about/

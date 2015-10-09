@@ -60,41 +60,24 @@ header {
     margin-bottom: 0px;
   }
 
-  .container {
-    text-align: center;
-
-    .navbar-main {
-      float: none;
-      display: inline-block;
-      margin: 0 auto;
-
-      > li {
-        float: left;
-      }
-
-    }
-
-    .navbar-brand {
-      float: none;
-      display: block;
-    }
-
-    .navbar-nav > li > a {
-      padding-top: 17.5px;
-      padding-bottom: 17.5px;
-    }
-  }
-
-  @media (min-width: $screen-md) {
+  nav {
     .container {
+      text-align: center;
+
       .navbar-main {
-        float: right;
-        display: block;
+        float: none;
+        display: inline-block;
+        margin: 0 auto;
+
+        > li {
+          float: left;
+        }
+
       }
 
-      .navbar-brand {
-        float: left;
-        display: block;
+      .navbar-nav > li > a {
+        padding-top: 17.5px;
+        padding-bottom: 17.5px;
       }
     }
   }
@@ -104,12 +87,44 @@ header {
   margin-bottom: 27px;
 }
 
+// header
+
+#header {
+  background-color: lighten($navbar-inverse-bg, 5%);
+
+  color: $navbar-inverse-color;
+  padding: 32px 0;
+
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+
+  .brand {
+    color: white;
+    font-size: 32px;
+    line-height: 60px;
+
+    img {
+      width: 48px;
+      height: 48px;
+      margin-top: -8px;
+    }
+  }
+
+  .header-right {
+    text-align: right;
+    padding-top: 10px;
+
+    a {
+      color: lighten(#4183C4, 30%);
+    }
+  }
+}
+
 //
 // #heads-up
 //
 
 #heads-up {
-  background-color: $navbar-inverse-bg;
+  background-color: lighten($navbar-inverse-bg, 5%);
 
   color: $navbar-inverse-color;
   padding-bottom: 25px;
@@ -123,7 +138,7 @@ header {
 //
 
 .footer {
-  padding: 5px 0;
+  padding: 25px 0;
   background: $navbar-inverse-bg;
   color: $navbar-inverse-color;
   font-size: $font-size-small;
