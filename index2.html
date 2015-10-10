@@ -1,0 +1,67 @@
+---
+layout: base
+text: |
+  Соединённость — это состояние, в котором твои мозги со всеми убеждениями, установками и ограничениями не встают между твоими возможностями и твоими результатами.
+
+  Ты соединяешься со своими желаниями и позволяешь себе хотеть того, чего хочется именно тебе.
+
+  Ты осознаёшь свою уникальность — ту исключительную комбинацию интересов, способностей, сильных сторон и талантов, которая отличает тебя от других людей.
+
+  Благодаря этому ты точно знаешь, какие цели достойны быть достигнутыми именно тобой, и точно знаешь, что ты достоин их достичь.
+
+  Поэтому ты идёшь к своим целям легко, и получаешь результаты, которые принадлежат тебе по праву.
+---
+
+{% include header.html %}
+
+<div class="section bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        {{ page.text | markdownify }}
+      </div>
+      <div class="col-md-5">
+        <p class="lead text-center">
+          Получить инструкцию по лёгкому достижению целей
+        </p>
+        <div class="well">
+          <form action="http://prorealnost.prorealnost.com/shot/50" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block"><b>Скачать</b> инструкцию</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="margin"></div>
+
+<div id="main" role="main" class="container">
+  <div class="posts">
+    {% for post in site.posts %}
+      <article class="post">
+
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать Дальше</a>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="margin"></div>
+
+{% include footer.html %}
