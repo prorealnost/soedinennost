@@ -91,6 +91,9 @@ header {
 
 #header {
   background-color: lighten($navbar-inverse-bg, 5%);
+  background-image: url(/images/top-bg.jpg);
+  background-size: cover;
+  background-position: center;
 
   color: $navbar-inverse-color;
   padding: 32px 0;
