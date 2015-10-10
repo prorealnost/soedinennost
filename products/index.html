@@ -1,0 +1,48 @@
+---
+layout: page
+title: Курсы и тренинги
+permalink: /products/
+items:
+  -
+    title: "Как определиться с выбором цели"
+    icon: "kovc"
+    text: "Практическая пошаговая инструкция"
+    ref: "http://goals.prorealnost.com"
+  -
+    title: "Как порвать трудное дело"
+    icon: "kptd"
+    text: "Практическая пошаговая инструкция"
+    ref: "/tear/"
+  -
+    title: "Победитель"
+    icon: "pobeditel"
+    text: |
+      **Как стать человеком, который легко достигает прорывных результатов**
+      
+      Интенсивный практический онлайн-тренинг
+    ref: "/pobeditel/"
+  -
+    title: "Коучинг"
+    icon: "coaching"
+    text: "Персональный коучинг Николая Воробьёва"
+    ref: "/coaching/"
+---
+
+<hr/>
+{% for item in page.items %}
+  <div class="media">
+    <div class="media-left">
+      <a href="{{ item.ref }}">
+        <img class="media-object" src="/images/product/{{ item.icon }}.png" alt="{{ item.title }}" width="128" heigth="128" style="margin-right: 20px;">
+      </a>
+    </div>
+    <div class="media-body">
+      <h2 class="media-heading"><a href="{{ item.ref }}">{{ item.title }}</a></h2>
+      {{ item.text | markdownify }}
+      <p><a href="{{ item.ref }}">Подробности тут</a></p>
+    </div>
+  </div>
+  <hr/>
+{% endfor %}
+
+
