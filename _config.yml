@@ -33,6 +33,10 @@ navigation:
   url: /coaching/
 - text: Курсы и тренинги
   url: /products/
+- text: Отзывы и Кейсы
+  url: /ok/
+- text: Партнёрка
+  url: /partner/
 - text: О проекте
   url: /about/
 
