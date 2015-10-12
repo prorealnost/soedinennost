@@ -1,0 +1,116 @@
+---
+layout: base
+---
+<div class="section bg-primary" style="margin-top:-30px;">
+  <div class="container">
+    <p class="text-center">
+      <img src="{ { asset('star.png') } }" style="width:100px;height:100px;border:solid #eee 1px; border-radius: 6px;"/>
+    </p>
+    <p class="lead text-center">
+      Добро пожаловать в клуб интернет-предпринимателей iCoach!
+      <br/><small>Тебя пригласил: { { inviter.name } }</small>
+    </p>
+    
+    <table style="width:100%;">
+      <tr>
+        <td style="width:50%;">
+          <h1>Регистрируйся<br/>и начни зарабатывать<br/>вместе с нами!</h1>
+        </td>
+        <td style="width:10%;">
+          <i class="fa fa-chevron-right fa-4x"></i>
+        </td>
+        <td style="width:40%;">
+          <a href="{ { path('invite_register', { 'oid': inviter.oid }) } }" class="btn btn-info btn-hg">Зарегистрироваться</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <h1 class="text-center">Кто может стать нашим партнёром</h1>
+    <br/>
+    <hr/>
+    <br/>
+    <div class="row">
+      <div class="col-xs-6">
+        <p class="text-center"><img src="{ { asset('fui/img/icons/svg/shirt.svg') } }"/></p>
+        <h2 class="text-center">Профессионалы</h2>
+        <p>Если ты:</p>
+        <ul>
+          <li>Владелец тематического сайта или блога</li>
+          <li>Занимаешься контекстной рекламой</li>
+          <li>Владелец тематической рассылки</li>
+        </ul>
+        <p>То у нас есть для тебя:</p>
+        <ul>
+          <li>Новые актуальные офферы каждую неделю</li>
+          <li>Все необходимые рекламные материалы</li>
+          <li>Большое количество апселов, за которые ты тоже получаешь вознаграждение</li>
+          <li>Все нужные инструменты для статистики</li>
+        </ul>
+      </div>
+      <div class="col-xs-6">
+        <p class="text-center"><img src="{ { asset('fui/img/icons/svg/rocket.svg') } }"/></p>
+        <h2 class="text-center">Начинающие</h2>
+        <p>Если ты:</p>
+        <ul>
+          <li>Ещё не пробовал заработать в интернете</li>
+          <li>Но очень хотел бы научиться</li>
+          <li>И получать регулярный высокий доход</li>
+        </ul>
+        <p>То у нас есть для тебя:</p>
+        <ul>
+          <li>Подробная инструкция для начинающих</li>
+          <li>Методички по всем первым шагам</li>
+          <li>Программы дополнительного обучения</li>
+          <li>Поддержка профессиональных кураторов, которые всегда готовы объяснить и помочь</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section bg-primary">
+  <div class="container">
+    <table style="width:100%;">
+      <tr>
+        <td>
+          <h1>Участвуй в партнёрской системе и зарабатывай вместе с нами!</h1>
+        </td>
+        <td style="padding:40px;">
+          <i class="fa fa-chevron-right fa-4x"></i>
+        </td>
+        <td>
+          <a href="{ { path('invite_register', { 'oid': inviter.oid }) } }" class="btn btn-info btn-hg">Заработать сейчас</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <p class="text-center"><img src="{ { asset('fui/img/icons/svg/card.svg') } }"/></p>
+    <h1 class="text-center">Сколько мы платим</h1>
+
+    <br/>
+    <hr/>
+    <br/>
+
+    <h2>1. Приводи клиентов к нам на сайт и получай вознаграждение!</h2>
+
+    <p class="alert alert-warning"><i class="fa fa-warning text-warning"></i> Мы платим тебе не только с первой покупки привлечённого тобой покупателя, но и <b>с последующих покупок тоже!</b></p>
+
+    <table class="table table-bordered table-striped">
+      <tr>
+        <th>Наш продукт</th>
+        <th>Твой заработок с каждого покупателя</th>
+      </tr>
+      {% for price in prices %}
+        <tr>
+          <td><a href="{ { price.aim.url } }?p={ { inviter.oid } }" target="_blank">{ { price.name } }</a></td>
+          <td>&euro;{ { price.payoff } }</td>
+        </tr>
+      {% endfor %}
+    </table>
+
+    <p class="alert alert-success"><i class="fa fa-info-circle text-success"></i> Ты можешь размещать ссылки на наши <b>бесплатные вебинары</b>, а мы на вебинаре сами продадим покупателю нужный ему продукт!</p>
