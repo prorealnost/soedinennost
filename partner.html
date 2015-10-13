@@ -1,0 +1,140 @@
+---
+layout: landing
+permalink: /partner/
+title: Партнёрская программа
+howitworks:
+  - При регистрации ты&nbsp;получаешь персональную партнёрскую ссылку
+  - Ты&nbsp;настраиваешь любые виды рекламы, размещаешь эту ссылку на&nbsp;собственных ресурсах, страницах&nbsp;ВК и&nbsp;т.д
+  - Посетители переходят по&nbsp;твоей ссылке и&nbsp;заказывают наши бесплатные продукты
+  - Мы&nbsp;устанавливаем доверие с&nbsp;новыми подписчиками, пишем им&nbsp;письма, шлем полезности (что значительно повышает конверсию), звоним и&nbsp;далее уже продаем дешевые или дорогие продукты
+  - В&nbsp;личном партнёрском кабинете ты&nbsp;отслеживаешь все необходимые показатели по&nbsp;трафику, видишь, сколько людей перешло по&nbsp;твоей ссылке, сколько купило дешевые продукты или основные. Тестируешь
+  - Ты&nbsp;получаешь от&nbsp;20% до&nbsp;100% комиссии за&nbsp;каждого покупателя
+
+reasons:
+  - Тебе не&nbsp;нужно ничего продавать, это сделаем мы
+  - Ты&nbsp;получишь комиссию пожизненно с&nbsp;каждой следующей продажи
+  - Тебе не&nbsp;надо ничего платить за&nbsp;регистрацию или вкладывать свои средства
+  - У&nbsp;нас есть разные предложения для наших клиентов, от&nbsp;дешевых за&nbsp;1000&nbsp;р до&nbsp;дорогих за&nbsp;150&nbsp;000&nbsp;р. 
+  - Твоя комиссия составляет от&nbsp;20&nbsp;до&nbsp;100%
+  - Мы&nbsp;гарантированно выплачиваем твой заработок каждый месяц
+  - Ты&nbsp;получишь от&nbsp;нас комплект обучающих и&nbsp;рекламных материалов, писем, скриптов
+
+---
+
+<div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 style="margin-top: 0; font-size: 48px;">Зарабатывай легко и&nbsp;с&nbsp;удовольствием</h1>
+        <p class="lead">
+          комиссия партнёру от&nbsp;20&nbsp;до&nbsp;100% с&nbsp;каждого заказа
+        </p>
+        <a class="btn btn-info btn-lg" href="http://p.icoach.io/register/">Стать партнёром</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="padding-bottom: 0;">
+  <div style="
+    min-width: 1000px;
+    min-height: 600px;
+    background-image: url(http://prorealnost.com/data/media/prorealnost/me.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    border-bottom: solid #e0e0e0 3px;
+  ">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-offset-5 col-xs-7 bg-clouds" style="padding: 50px;">
+          <p>Я, <b>Николай Воробьёв</b>, международный тренер и&nbsp;автор проекта &laquo;Соединённость&raquo;, уже более пяти лет веду тренинги личной эффективности.</p>
+
+          <p><b>Моя миссия&nbsp;&mdash; помогать людям</b> вокруг, поддерживать их&nbsp;в&nbsp;росте и&nbsp;продвигать вперед, делать мир лучше.</p>
+
+          <p><b>Я&nbsp;подготовил для тебя</b> набор обучающих курсов и&nbsp;видеоматериалов, автовебинаров и&nbsp;онлайн-тренингов по&nbsp;личностному росту, и&nbsp;<b>предлагаю тебе стать моим партнёром.</b></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="background-image: url(http://prorealnost.com/data/media/prorealnost/graduates-bg.jpg);">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-offset-2 col-xs-8" style="padding: 70px; background: white;">
+        <h1 class="text-center">Мои клиенты</h1>
+        <div style="height:10px;"></div>
+
+        <p>Мои клиенты&nbsp;&mdash; это, в&nbsp;основном, мужчины и&nbsp;женщины от&nbsp;25&nbsp;лет, которые хотят в&nbsp;жизни грандиозных результатов, и&nbsp;готовы с&nbsp;моей помощью ускориться.</p>
+
+        <p>Бизнесмены или специалисты среднего звена, это люди, которые уже чего-то добились, но&nbsp;хотят прорыва и&nbsp;по-настоящему насыщенной яркой жизни.</p>
+        <div style="height:10px;"></div>
+        <p class="text-center">
+          <a class="btn btn-info" href="http://p.icoach.io/register/">Зарегистрироваться<br/>в&nbsp;партнёрской программе</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h1 style="margin-top: 0;">Как это работает</h1>
+      </div>
+      <div class="col-md-7">
+        <p> </p>
+        {% for item in page.howitworks %}
+          {% capture thecycle %}{% cycle 'text-strong', '' %}{% endcapture %}
+          <div class="numbercircle bg-nephritis text-white text-strong" style="float: left;">{{ forloop.index }}</div>
+          <p class="{{ thecycle }}" style="margin-left: 3em; padding-top: 3px; padding-bottom: 1em;">
+            {{ item }}
+          </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section bg-clouds" style="
+  min-width:992px;
+  background-image: url(/images/finger-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: contain;
+">
+  <div class="container" style="min-width:992px;">
+    <div class="row">
+      <div class="col-xs-6 col-xs-offset-6 bg-white" style="padding: 50px;">
+        <h1 style="margin-top: 0;" class="text-center">Важно!</h1>
+        <hr/>
+        <p>Наши продукты&nbsp;&mdash; это в&nbsp;первую очередь качество. Клиент всегда для нас на&nbsp;первом месте, и&nbsp;нам важно, чтоб он&nbsp;остался доволен.</p>
+
+        <p><a href="/ok/">В&nbsp;отзывах</a> ты&nbsp;можешь узнать, что о&nbsp;нас говорят наши студенты (все отзывы настоящие).</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="text-center">7&nbsp;главных причин стать нашим партнёром прямо сейчас!</h1>
+        <hr/>
+        {% for item in page.reasons %}
+          {% capture thecycle %}{% cycle 'text-strong', '' %}{% endcapture %}
+          <div class="numbercircle bg-alizarin text-white text-strong" style="float: left;">{{ forloop.index }}</div>
+          <p class="{{ thecycle }}" style="margin-left: 3em; padding-top: 3px; padding-bottom: 1em;">
+            {{ item }}
+          </p>
+        {% endfor %}
+        <hr/>
+        <p class="text-center">
+          <a class="btn btn-danger btn-lg" href="http://p.icoach.io/register/">Стань партнёром прямо сейчас</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
