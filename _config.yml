@@ -24,13 +24,6 @@ author: Николай Воробьёв
 #
 
 navigation:
-- text: Ответы
-  url: /ask/
-  layout: answer
-- text: Тренинг
-  url: /pobeditel/
-- text: Коучинг
-  url: /coaching/
 - text: Курсы и тренинги
   url: /products/
 - text: Отзывы и Кейсы
