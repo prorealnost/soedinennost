@@ -258,3 +258,33 @@ $numbercirclebase: 35px;
   text-align: center;
   font-size: 1.1em;
 }
+
+$numbercirclebase-lg: 100px;
+
+.numbercircle-lg {
+  display: inline-block;
+  height: $numbercirclebase-lg;
+  width: $numbercirclebase-lg;
+  line-height: $numbercirclebase-lg;
+
+  -moz-border-radius: $numbercirclebase-lg / 2; /* or 50% */
+  border-radius: $numbercirclebase-lg / 2; /* or 50% */
+
+  text-align: center;
+  font-size: 2em;
+}
+
+$numbercirclebase-md: 60px;
+
+.numbercircle-md {
+  display: inline-block;
+  height: $numbercirclebase-md;
+  width: $numbercirclebase-md;
+  line-height: $numbercirclebase-md;
+
+  -moz-border-radius: $numbercirclebase-md / 2; /* or 50% */
+  border-radius: $numbercirclebase-md / 2; /* or 50% */
+
+  text-align: center;
+  font-size: 2em;
+}
