@@ -79,9 +79,22 @@ contents:
 <script type="text/javascript">
   var clock;
 
+  const targetDay = 2; // вторник
+  const targetHour = 20; // 20:00
+
   $(document).ready(function() {
     // Set some date in the future. In this case, it's always Jan 1
-    var futureDate = moment().tz('Europe/Moscow').day(2).hour(20).minute(0);
+    var futureDate = moment().tz('Europe/Moscow');
+
+    if (futureDate.day() > targetDay) {
+      futureDate.add(1, 'week');
+    }
+
+    if (futureDate.day() == targetDay && futureDate.hour() >= targetHour) {
+      futureDate.add(1, 'week');
+    }
+
+    futureDate = futureDate.day(targetDay).hour(targetHour).minute(0);
 
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.unix() - moment().unix();
