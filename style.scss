@@ -120,6 +120,31 @@ header {
       color: lighten(#4183C4, 30%);
     }
   }
+
+  // leaving some place for topright ribbon
+  @media screen and (min-width: 992px) and (max-width: 1071px) {
+    .header-right {
+      padding-right: 80px;
+    }
+  }
+
+  @media screen and (min-width: 1072px) and (max-width: 1152px) {
+    .header-right {
+      padding-right: 40px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 847px) {
+    .header-right {
+      padding-right: 80px;
+    }
+  }
+
+  @media screen and (min-width: 848px) and (max-width: 928px) {
+    .header-right {
+      padding-right: 40px;
+    }
+  }
 }
 
 //
