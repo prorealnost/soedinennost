@@ -66,7 +66,7 @@ author:
       <div class="col-xs-5 text-center">
         <h1 style="margin-top: 0;">Получай скидку<br/><i class="fa fa-arrow-down"></i></h1>
         <p class="lead">Потому что ты<br/>только что подписался</p>
-        <form action="http://prorealnost.prorealnost.com/shot/72" method="POST">
+        <form action="http://prorealnost.prorealnost.com/shot/87" method="POST">
           <div class="form-group">
             <input type="hidden" id="input-name" name="name" class="form-control" placeholder="Имя" required="required"/>
           </div>
