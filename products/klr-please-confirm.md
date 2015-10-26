@@ -30,5 +30,5 @@ permalink: /klr-please-confirm/
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 <script type="text/javascript">
 VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
-VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, 'http://soedinennost.com/klr');
+VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, '');
 </script>
