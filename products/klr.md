@@ -2,7 +2,6 @@
 layout: landing
 title: Клуб личностного роста Николая Воробьёва
 permalink: /klr/
-target: http://prorealnost.prorealnost.com/shot/89
 chat: false
 header: 
   title: "Клуб личностного роста<br/>Николая Воробьёва"
@@ -38,30 +37,17 @@ contents:
 <div class="section bg-clouds-lighter">
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-10 col-md-offset-1 text-center">
         <div class="flex-video widescreen">
           <iframe width="853" height="480" src="//www.youtube.com/embed/{{ page.header.video }}?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div class="well">
-          <form action="{{ page.target }}" method="POST">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
-            </div>
-            <div class="form-group">
-              <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
-            </div>
-            <button type="submit" class="btn btn-primary btn-danger btn-block">Записаться <i class="fa fa-arrow-right"></i></button>
-          </form>
         </div>
       </div>
     </div>
     <h1 class="text-center">Ближайший вторник в&nbsp;20:00&nbsp;мск</h1>
     <div class="clock" style="margin: 2em 0; width: 620px; left: 50%; margin-left: -310px;"></div>
+    <p class="text-center">
+      <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
+    </p>
   </div>
 </div>
 
@@ -77,35 +63,12 @@ contents:
         </div>
       {% endfor %}
     </div>
+    <br/>
+    <p class="text-center">
+      <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
+    </p>
   </div>
 </div>
-
-<div class="section bg-clouds-lighter">
-  <div class="container">
-    <h1 align="center">
-      Записаться на ближайшее занятие клуба
-    </h1>
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <div class="well">
-          <form action="{{ page.target }}" method="POST">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control input-lg" placeholder="Имя" required="required"/>
-            </div>
-            <div class="form-group">
-              <input type="text" name="phone" rules="phone" class="form-control input-lg" placeholder="Телефон" required="required"/>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" class="form-control input-lg" placeholder="Емейл" required="required"/>
-            </div>
-            <button type="submit" class="btn btn-danger btn-lg btn-block">Записаться <i class="fa fa-arrow-right"></i></button>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 
 <link rel="stylesheet" href="/vendor/flipclock/flipclock.css"/>
 
@@ -143,4 +106,32 @@ contents:
       language: 'Russian'
     });
   });
+</script>
+
+<div class="section" id="pricing">
+  <div class="container">
+    <h1 class="text-center">Чтобы записаться</h1>
+  </div>
+  <div class="content">
+    <p><b>1. Оставь вот такой комментарий:</b></p>
+    <p style="margin-left: 2em;"><i>Записался в клуб личностного роста<br/>Николая Воробьёва http://soedinennost.com/klr/</i></p>
+    <p><b>2. Мы с тобой свяжемся и пришлём ссылку для участия<br/>в ближайшем занятии</b></p>
+  </div>
+  <div class="content">
+    <div id="vk_comments"></div>
+  </div>
+</div>
+
+<style type="text/css">
+.content {
+  width: 700px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+</style>
+
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+<script type="text/javascript">
+VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
+VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, '{{ page.stream }}');
 </script>
