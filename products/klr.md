@@ -108,7 +108,7 @@ contents:
   });
 </script>
 
-<div class="section" id="pricing">
+<div class="section bg-clouds-lighter" id="pricing">
   <div class="container">
     <h1 class="text-center">Чтобы записаться</h1>
   </div>
