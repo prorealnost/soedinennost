@@ -27,10 +27,19 @@ contents:
 <div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
   <div class="container">
     <div class="row">
-      <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
-      <p class="lead">
-        {{ page.header.subtitle }}
-      </p>
+      <div class="col-sm-11">
+        <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
+        <p class="lead">
+          {{ page.header.subtitle }}
+        </p>
+      </div>
+      <div class="col-sm-1">
+        <h1>
+          <i class="fa fa-arrow-down text-danger"></i>
+          <i class="fa fa-arrow-down text-danger"></i>
+          <i class="fa fa-arrow-down text-danger"></i>
+        </h1>
+      </div>
     </div>
   </div>
 </div>
