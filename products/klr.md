@@ -9,6 +9,7 @@ header:
   # Длительная поддержка в&nbsp;достижении целей и&nbsp;развитии личных качеств
   background: "/images/kp-top-bg-min.jpg"
   buttontitle: "Записаться"
+  morebuttontitle: "Узнать больше"
   video: GflraE1h99Q
 features: 
   feature1: "Работа, которая приносит 50-70-100 т.р. в месяц, но перспективы роста закончились"
@@ -26,24 +27,17 @@ contents:
 
 <div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-11">
-        <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
-        <p class="lead">
-          {{ page.header.subtitle }}
-        </p>
-      </div>
-      <div class="col-sm-1">
-        <h1>
-          <i class="fa fa-arrow-down text-danger"></i>
-          <i class="fa fa-arrow-down text-danger"></i>
-          <i class="fa fa-arrow-down text-danger"></i>
-        </h1>
-      </div>
-    </div>
+    <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
+    <p class="lead">
+      {{ page.header.subtitle }}
+    </p>
+    <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
+    &nbsp;
+    <a class="btn btn-info" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
   </div>
 </div>
-<div class="section bg-clouds-lighter">
+
+<div class="section bg-clouds-lighter" id="more">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1 text-center">
@@ -52,7 +46,7 @@ contents:
         </div>
       </div>
     </div>
-    <h1 class="text-center">Ближайший вторник в&nbsp;20:00&nbsp;мск</h1>
+    <h1 class="text-center">Встречи клуба каждую среду<br/>онлайн в&nbsp;20:00&nbsp;мск</h1>
     <div class="clock" style="margin: 2em 0; width: 620px; left: 50%; margin-left: -310px;"></div>
     <p class="text-center">
       <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
@@ -66,7 +60,7 @@ contents:
     <p class="lead text-muted text-center">только если ты готов менять свою жизнь к лучшему</p>
     <div class="row">
       {% for item in page.contents.items %}
-        <div class="col-md-4" style="height: 100px; margin-top: 50px">
+        <div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-6 col-md-4" style="height: 100px; margin-top: 50px">
           <div class="numbercircle-md bg-nephritis text-white text-strong" style="float: left;">{{ forloop.index }}</div>
           <p style="margin-left: 4em; margin-top: 0; padding-bottom: 1em;">{{ item }}</p>
         </div>
@@ -88,7 +82,7 @@ contents:
 <script type="text/javascript">
   var clock;
 
-  const targetDay = 2; // вторник
+  const targetDay = 3; // среда
   const targetHour = 20; // 20:00
 
   $(document).ready(function() {
@@ -122,9 +116,22 @@ contents:
     <h1 class="text-center">Чтобы записаться</h1>
   </div>
   <div class="content">
-    <p><b>1. Оставь вот такой комментарий:</b></p>
-    <p style="margin-left: 2em;"><i>Записался в клуб личностного роста<br/>Николая Воробьёва http://soedinennost.com/klr/</i></p>
-    <p><b>2. Мы с тобой свяжемся и пришлём ссылку для участия<br/>в ближайшем занятии</b></p>
+    <div class="numbercircle bg-pumpkin text-white text-strong" style="float: left;">1</div>
+    <p class="lead" style="margin-left: 2em; padding-top: 0; margin-top: 0; padding-bottom: 1em;">
+      Оставь вот такой комментарий:
+    </p>
+
+    <p style="margin-left: 4em; margin-bottom: 2em; margin-top: -10px;"><i>Записываюсь в клуб личностного роста<br/>Николая Воробьёва http://soedinennost.com/klr/</i></p>
+
+    <div class="numbercircle bg-pumpkin text-white text-strong" style="float: left;">2</div>
+    <p class="lead" style="margin-left: 2em; padding-top: 0; margin-top: 0; padding-bottom: 1em;">
+      Убедись, что комментарий отобразился на&nbsp;твоей стене ВКонтакте
+    </p>
+
+    <div class="numbercircle bg-pumpkin text-white text-strong" style="float: left;">3</div>
+    <p class="lead" style="margin-left: 2em; padding-top: 0; margin-top: 0; padding-bottom: 1em;">
+      Мы с&nbsp;тобой свяжемся перед ближайшим занятием и&nbsp;пришлём ссылку для&nbsp;участия
+    </p>
   </div>
   <div class="content">
     <div id="vk_comments"></div>
