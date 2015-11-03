@@ -5,7 +5,7 @@ permalink: /klr/
 chat: false
 header: 
   title: "Клуб личностного роста<br/>Николая Воробьёва"
-  subtitle: "создай новые возможности в&nbsp;своей жизни<br/>и&nbsp;наполни её&nbsp;крутыми результатами"
+  subtitle: "бесплатно для всех желающих"
   # Длительная поддержка в&nbsp;достижении целей и&nbsp;развитии личных качеств
   background: "/images/kp-top-bg-min.jpg"
   buttontitle: "Записаться"
