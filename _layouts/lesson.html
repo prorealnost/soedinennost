@@ -1,0 +1,43 @@
+---
+layout: base
+---
+
+<div class="margin"></div>
+
+<div id="main" role="main" class="container">
+
+  <article class="page">
+
+    <h1>{{ page.courseTitle }}</h1>
+    <h2>{{ page.lessonTitle }}</h2>
+
+    <div class="entry">
+      <div class="flex-video widescreen">
+        <iframe width="853" height="480" src="http://www.youtube.com/embed/{{ page.video }}?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      {% assign content = content | strip_newlines %}
+      {% if content != "" %}
+        <p><b>Для того, чтобы курс принёс тебе максимальную пользу</b>, я настоятельно рекомендую тебе делать все домашние задания. Причём делать их не «в голове», а письменно.</p>
+        <h3>Твоё задание на сегодня:</h3>
+        {{ content }}
+      {% endif %}
+
+      {% if page.lessonNumber > 1 %}
+        <a class="btn btn-default" href="{{ page.lessonNumber | minus:1 }}.html">&larr; предыдущий урок</a>
+      {% endif %}
+
+      {% if page.lastLesson != true %}
+        <a class="btn btn-default pull-right" href="{{ page.lessonNumber | plus:1 }}.html">следующий урок &rarr;</a>
+      {% endif %}
+
+      <p>
+      </p>
+    </div>
+  </article>
+
+</div>
+
+<div class="margin"></div>
+
+{% include footer.html %}
