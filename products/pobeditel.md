@@ -161,7 +161,7 @@ testimonials:
       <div class="col-sm-6 col-md-4 col-md-offset-2">
         <h2>Цена:</h2>
 
-        &euro;400 или 31000&nbsp;рублей
+        &euro;400 или 29000&nbsp;рублей
 
         <h2>Формат:</h2>
 
