@@ -64,7 +64,7 @@ weeks:
       - "Всегда будешь гореть целью, и получать удовольствие от процесса достижения цели"
 
     pricetitle: Первая<br/>неделя
-    pricetitle2: Цена за первую + вторую неделю
+    pricetitle2: Цена за первую неделю
     price: 9900
     discounted: 4900
     href: http://prorealnost.prorealnost.com/shot/100
