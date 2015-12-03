@@ -132,6 +132,8 @@ features:
   </div>
 </div>
 
+<a name="more"></a>
+
 <div class="section">
   <div class="container">
     <h1 class="text-center">Для кого</h1>
@@ -211,7 +213,7 @@ features:
             <a class="btn btn-{{ color }}" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
           </p>
           <p class="text-center">
-            (скидка 50% действует до среды, 2 декабря 23:59 мск)
+            (скидка 50% действует до субботы, 5 декабря 23:59 мск)
           </p>
           <br/>
         </div>
