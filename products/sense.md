@@ -213,7 +213,7 @@ features:
             <a class="btn btn-{{ color }}" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
           </p>
           <p class="text-center">
-            (скидка 50% действует до субботы, 5 декабря 23:59 мск)
+            (скидка 50% действует до среды, 2 декабря 23:59 мск)
           </p>
           <br/>
         </div>
