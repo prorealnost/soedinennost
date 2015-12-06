@@ -65,8 +65,8 @@ weeks:
 
     pricetitle: Первая<br/>неделя
     pricetitle2: Цена за первую неделю
-    price: 9900
-    discounted: 4900
+    price: 20000
+    discounted: 10000
     href: http://prorealnost.prorealnost.com/shot/100
 
   - name: Продвинутый
@@ -88,8 +88,8 @@ weeks:
 
     pricetitle: Первая + вторая<br/>неделя
     pricetitle2: Цена за первую + вторую неделю
-    price: 29900
-    discounted: 14900
+    price: 60000
+    discounted: 30000
     href: http://prorealnost.prorealnost.com/shot/103
 
   - name: ВИП
@@ -107,8 +107,8 @@ weeks:
 
     pricetitle: Первая + вторая<br/>+ ВИП неделя
     pricetitle2: Цена за первую + вторую + ВИП неделю
-    price: 99900
-    discounted: 49900
+    price: 180000
+    discounted: 90000
     href: http://prorealnost.prorealnost.com/shot/106
 
 features:
@@ -213,7 +213,7 @@ features:
             <a class="btn btn-{{ color }}" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
           </p>
           <p class="text-center">
-            (скидка 50% действует до среды, 2 декабря 23:59 мск)
+            (скидка 50% действует до вторника, 8 декабря 23:59 мск)
           </p>
           <br/>
         </div>
