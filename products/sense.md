@@ -65,7 +65,7 @@ weeks:
 
     pricetitle: Первая<br/>неделя
     pricetitle2: Цена за первую неделю
-    price: 9900
+    price: 31500
     discounted: 4900
     href: http://prorealnost.prorealnost.com/shot/100
 
@@ -88,7 +88,7 @@ weeks:
 
     pricetitle: Первая + вторая<br/>неделя
     pricetitle2: Цена за первую + вторую неделю
-    price: 29900
+    price: 64500
     discounted: 14900
     href: http://prorealnost.prorealnost.com/shot/103
 
@@ -102,12 +102,11 @@ weeks:
       - "Ответы на твои вопросы и персональное внимание"
       - "Подробный разбор именно твоего случая"
       - "Тебя ничто не собьёт с пути"
-      - "Индивидуальный подход в течение первых двух недель"
       - "Дополнительная третья неделя с индивидуально разработанной под тебя программой внедрения"
 
     pricetitle: Первая + вторая<br/>+ ВИП неделя
     pricetitle2: Цена за первую + вторую + ВИП неделю
-    price: 99900
+    price: 120000
     discounted: 49900
     href: http://prorealnost.prorealnost.com/shot/106
 
@@ -207,13 +206,10 @@ features:
             {% endfor %}
           </ul>
           <p class="text-center">
-            {{ col.pricetitle2 }}: <s>{{ col.price }}</s> <b>{{ col.discounted }}</b> рублей
+            {{ col.pricetitle2 }}: <b>{{ col.price }}</b> рублей
           </p>
           <p class="text-center">
             <a class="btn btn-{{ color }}" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
-          </p>
-          <p class="text-center">
-            (скидка 50% действует до среды, 2 декабря 23:59 мск)
           </p>
           <br/>
         </div>
@@ -250,8 +246,7 @@ features:
             <ul class="list-group list-group-flush" style="margin: -1px;">
               <li class="list-group-item">
                 <p class="lead text-center">{{ item.pricetitle }}</p>
-                <p class="lead text-center text-muted"><s>{{ item.price }}</s></p>
-                <p class="lead text-center" style="padding: 0 15px 20px 15px; font-size: 42px; margin: 0px;"><strong>{{ item.discounted }}</strong><br/><span class="text-muted" style="font-size: 27px;">рублей</span></p>
+                <p class="lead text-center" style="padding: 0 15px 20px 15px; font-size: 42px; margin: 0px;"><strong>{{ item.price }}</strong><br/><span class="text-muted" style="font-size: 27px;">рублей</span></p>
               </li>
             </ul>
             <div style="padding: 20px 15px;">
