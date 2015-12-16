@@ -92,4 +92,8 @@ exclude:
 
 # Какой проект yo содержит шоты для этого фронтенда
 yo: prorealnost
-vk_app_id: 5037595
+
+vk_app_id: 5037595 # soedinennost.com
+# vk_app_id: 2383340 # localhost
+fb_app_id: 196110064064378 # soedinennost.com
+# fb_app_id: 645740925469436 # localhost

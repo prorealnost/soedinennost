@@ -15,23 +15,59 @@ chat: false
 </div>
 
 <div id="hangout">
-  <div class="content">
+  <div class="container" style="min-width: 990px; max-width: 990px;">
     {% if page.ref %}
       <p class="text-center"><a class="btn btn-primary" href="{{ page.ref }}" target="_blank">{{ page.buttonTitle }}</a><br/></p>
     {% endif %}
     <iframe src="https://mixlr.com/users/4385994/embed" width="100%" height="180px" scrolling="no" frameborder="no" marginheight="0" marginwidth="0"></iframe>
   </div>
-  <div class="content">
-    <div id="vk_comments"></div>
+  <div class="container" style="min-width: 990px; max-width: 990px;">
+    <div class="row">
+      <div class="col-xs-6">
+        <div id="vk_comments"></div>
+      </div>
+      <div class="col-xs-6">
+        <div class="fb-comments" data-href="http://soedinennost.com/live/" data-width="465" data-numposts="10"></div>
+      </div>
+    </div>
   </div>
 </div>
 <!-- style="display:none;" -->
 
+<!-- vk comments -->
+
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 <script type="text/javascript">
 VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
-VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, 'live');
+VK.Widgets.Comments("vk_comments", {width: 465, limit: 100, attach: "*"}, 'live');
 </script>
+
+<!-- end vk comments -->
+
+<!-- fb comments -->
+<!-- fb js sdk -->
+
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '196110064064378',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- end fb js sdk -->
+<!-- end fb comments -->
 
 <style type="text/css">
 #header {
@@ -58,9 +94,7 @@ VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, 'live'
   padding-bottom: 60px;
   background: #f0f0f0;
 }
-.content {
-  width: 700px;
-  margin: 0 auto;
-  padding: 40px 0 0 0;
+body {
+  background: #f0f0f0;
 }
 </style>
