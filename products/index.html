@@ -37,7 +37,7 @@ items:
       </a>
     </div>
     <div class="media-body">
-      <h2 class="media-heading"><a href="{{ item.ref }}">{{ item.title }}</a></h2>
+      <h2 class="media-heading"><a href="{{ item.path }}">{{ item.title }}</a></h2>
       {{ item.text | markdownify }}
       <p><a href="{{ item.ref }}">Подробности тут</a></p>
     </div>
@@ -45,4 +45,20 @@ items:
   <hr/>
 {% endfor %}
 
-
+<h1 id="klr" style="margin-top: 60px;">Клуб личностного роста Николая Воробьёва</h1>
+<hr/>
+{% for item in site.klr %}
+  <div class="media">
+    <div class="media-left">
+      <a href="http://prorealnost.prorealnost.com/shot/98">
+        <img class="media-object" src="/images/star256px.png" alt="{{ item.title }}" width="128" heigth="128" style="margin-right: 20px;">
+      </a>
+    </div>
+    <div class="media-body">
+      <h2 class="media-heading"><a href="http://prorealnost.prorealnost.com/shot/98">{{ item.title }}</a></h2>
+      {{ item.content | markdownify }}
+      <p><a href="http://prorealnost.prorealnost.com/shot/98">Купить запись этого занятия</a></p>
+    </div>
+  </div>
+  <hr/>
+{% endfor %}

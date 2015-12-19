@@ -39,6 +39,9 @@ collections:
   quests:
     output: true
     permalink: /quests/:path/
+  klr:
+    output: true
+    permalink: /klr/:path/
 
 defaults:
   - scope:
