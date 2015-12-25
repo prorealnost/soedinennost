@@ -5,18 +5,32 @@ title: Тренинг «Победитель»
 header: 
   title: Тренинг «Победитель»
   subtitle: |
-    для тех, кто подозревает, что способен в жизни на гораздо большее
+    пора тебе раскрыть свой потенциал<br/>и достигнуть действительно важных результатов
   background: "/images/bg-goal.jpg"
-  buttontitle: "Записаться"
+  buttontitle: "Записаться на тренинг"
+  morebuttontitle: "Узнать больше"
+  bullets:
+    - Хотел бы <b>зарабатывать больше?</b>
+    - Имеющиеся <b>перспективы не радуют?</b>
+    - Чувствуешь, что <b>способен на большее?</b>
 
 features:
-  title: "Тренинг, позволяющий:"
-  feature1: "выбрать по-настоящему **важные цели**"
-  feature2: "перестать сомневаться, и **стать решительным**"
-  feature3: "достичь **прорывных результатов** в выбранных областях"
+  title: "«Победитель» — это тренинг, позволяющий:"
+  feature1: "развить самодисциплину и целеустремлённость"
+  feature2: "улучшить эмоциональное состояние"
+  feature3: "начать жить вдохновлённо и с удовольствием"
 
-contents:
-  title: "Например:"
+contents: 
+  items:
+    - Находим, выбираем и ставим важные цели
+    - Разрабатываем план достижения для каждой
+    - Развиваем личные качества, нужные для их достижения
+    - Ты получаешь набор инструментов
+    - Индивидуально подбираем, какие инструменты нужны в твоём случае
+    - Следим и поддерживаем на протяжении 2 месяцев
+
+contents2:
+  title: "Какие цели ты можешь поставить на тренинг:"
   items:
     - Построить карьеру
     - Заняться благотворительностью
@@ -94,24 +108,36 @@ testimonials:
 
 ---
 
-{% include sections/header.html header=page.header bg="bg-primary" %}
+<div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
+  <div class="container">
+    <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
+    <p class="lead">
+      {{ page.header.subtitle }}
+    </p>
+    <p>
+      <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
+      &nbsp;
+      <a class="btn btn-info" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
+    </p>
+  </div>
+</div>
 
+<a name="more"></a>
 
 <div class="section" style="background-color: #fcfcfc; border-bottom: 1px solid #ccc;">
   <div class="container">
-    <h1 class="text-center">Ты научишься <b>достигать целей просто</b></h1>
+    <h1 class="text-center">Как понять, что в твоей жизни пора что-то менять?</h1>
     <div class="row">
       <div class="col-xs-3">
         <p class="pull-right text-info"><i class="fa fa-thumbs-o-up fa-5x"></i></p>
       </div>
       <div class="col-xs-9">
         <ul class="fa-ul">
-          <li><i class="fa-li fa fa-thumbs-o-up"></i>Принимать свои <b>настоящие желания</b></li>
-          <li><i class="fa-li fa fa-thumbs-o-up"></i>Достигать только действительно <b>важные цели</b></li>
-          <li><i class="fa-li fa fa-thumbs-o-up"></i>Использовать свои <b>сильные стороны</b></li>
-          <li><i class="fa-li fa fa-thumbs-o-up"></i><b>Развиваться</b> в процессе</li>
-          <li><i class="fa-li fa fa-thumbs-o-up"></i><b>Перестать заставлять себя</b></li>
+          {% for item in page.header.bullets %}
+            <li><i class="fa-li fa fa-thumbs-o-up"></i> {{ item }}</li>
+          {% endfor %}
         </ul>
+        <p class="text-muted" style="margin-left: 2.2em;">значит, пора!</p>
       </div>
     </div>
   </div>
@@ -119,7 +145,26 @@ testimonials:
 
 {% include sections/features.html features=page.features bg="" %}
 
-{% include sections/contents.html contents=page.contents bg="bg-primary" %}
+<div class="section" style="background-color: #fcfcfc; border-top: 1px solid #ccc;">
+  <div class="container">
+    <h1 class="text-center">Как мы это сделаем</h1>
+    <p class="lead text-muted text-center">шесть шагов, которые ты пройдёшь за два месяца</p>
+    <div class="row">
+      {% for item in page.contents.items %}
+        <div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-6 col-md-4" style="height: 100px; margin-top: 50px">
+          <div class="numbercircle-md bg-nephritis text-white text-strong" style="float: left;">{{ forloop.index }}</div>
+          <p style="margin-left: 4em; margin-top: 0; padding-bottom: 1em;">{{ item }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <br/>
+    <p class="text-center">
+      <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться на тренинг</a>
+    </p>
+  </div>
+</div>
+
+{% include sections/contents.html contents=page.contents2 bg="bg-primary" %}
 
 <div class="section">
   <div class="container">
