@@ -79,7 +79,7 @@ author:
 
 <div class="section">
   <div class="container">
-    <h1 class="text-center">Инструкция, которая уже помогла 399 людям</h1>
+    <h1 class="text-center">Инструкция, которая уже помогла 684 людям</h1>
     <p class="lead text-muted text-center">решиться и начать менять свою жизнь к лучшему</p>
     <div class="row">
       {% for item in page.features %}
