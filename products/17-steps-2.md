@@ -9,7 +9,8 @@ header:
   title: "Как достичь гораздо&nbsp;большего в&nbsp;бизнесе, работе и&nbsp;жизни"
   subtitle: "инструкция из 17 важных шагов"
   background: "/images/kp-top-bg-min.jpg"
-  buttontitle: "Записаться"
+  buttontitle: "Получить"
+  morebuttontitle: "Узнать больше"
   video: dDWTdQ2GHtI
 features: 
   -
@@ -51,31 +52,17 @@ author:
         <p class="lead">
           {{ page.header.subtitle }}
         </p>
+        <p>
+          <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
+          &nbsp;
+          <a class="btn btn-info" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
+        </p>
       </div>
-      {% comment %}
-      <div class="col-md-4 col-md-offset-1">
-        <div class="well">
-          <h2 align="center" style="color: black; margin-top: 0; text-shadow: none;">
-            Получить инструкцию
-          </h2>
-          <form action="http://prorealnost.prorealnost.com/shot/59" method="POST">
-            <div class="form-group">
-              <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
-            </div>
-            <div class="form-group">
-              <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Скачать</button>
-          </form>
-        </div>
-      </div>
-      {% endcomment %}
     </div>
   </div>
 </div>
+
+<a name="more"></a>
 
 <div class="section">
   <div class="container">
@@ -120,6 +107,8 @@ author:
     </div>
   </div>
 </div>
+
+<a name="pricing"></a>
 
 <div class="section">
   <div class="container">
