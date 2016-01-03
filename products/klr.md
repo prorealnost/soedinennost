@@ -139,17 +139,14 @@ contents:
 </div>
 
 <style type="text/css">
+body {
+  min-width: 700px;
+}
 .clock {
   margin: 2em 0;
   width: 620px;
   left: 50%;
   margin-left: -310px;
-}
-@media screen and (max-width: 767px) {
-  .clock{
-    zoom: 0.5;
-    -moz-transform: scale(0.5)
-  }
 }
 </style>
 
