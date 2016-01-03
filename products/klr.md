@@ -27,13 +27,13 @@ contents:
 
 <div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
   <div class="container">
-    <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
+    <h1 style="margin-top: 0; font-size: 42px;">{{ page.header.title }}</h1>
     <p class="lead">
       {{ page.header.subtitle }}
     </p>
-    <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
+    <a class="btn btn-danger" style="margin-bottom: 20px;" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
     &nbsp;
-    <a class="btn btn-info" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
+    <a class="btn btn-info" style="margin-bottom: 20px;" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
   </div>
 </div>
 
@@ -47,7 +47,7 @@ contents:
       </div>
     </div>
     <h1 class="text-center">Встречи клуба каждую среду<br/>онлайн в&nbsp;20:00&nbsp;мск</h1>
-    <div class="clock" style="margin: 2em 0; width: 620px; left: 50%; margin-left: -310px;"></div>
+    <div class="clock"></div>
     <p class="text-center">
       <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> Записаться</a>
     </p>
@@ -60,7 +60,7 @@ contents:
     <p class="lead text-muted text-center">только если ты готов менять свою жизнь к лучшему</p>
     <div class="row">
       {% for item in page.contents.items %}
-        <div class="col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-6 col-md-4" style="height: 100px; margin-top: 50px">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4" style="height: 100px; margin-top: 50px">
           <div class="numbercircle-md bg-nephritis text-white text-strong" style="float: left;">{{ forloop.index }}</div>
           <p style="margin-left: 4em; margin-top: 0; padding-bottom: 1em;">{{ item }}</p>
         </div>
@@ -137,6 +137,21 @@ contents:
     <div id="vk_comments"></div>
   </div>
 </div>
+
+<style type="text/css">
+.clock {
+  margin: 2em 0;
+  width: 620px;
+  left: 50%;
+  margin-left: -310px;
+}
+@media screen and (max-width: 767px) {
+  .clock{
+    zoom: 0.5;
+    -moz-transform: scale(0.5)
+  }
+}
+</style>
 
 <style type="text/css">
 .content {
