@@ -27,13 +27,13 @@ contents:
 
 <div class="section bg-primary text-center" style="background-image: url({{ page.header.background }}); background-size: cover; background-position: center; padding: 150px 0;">
   <div class="container">
-    <h1 style="margin-top: 0; font-size: 42px;">{{ page.header.title }}</h1>
+    <h1 style="margin-top: 0; font-size: 48px;">{{ page.header.title }}</h1>
     <p class="lead">
       {{ page.header.subtitle }}
     </p>
-    <a class="btn btn-danger" style="margin-bottom: 20px;" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
+    <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
     &nbsp;
-    <a class="btn btn-info" style="margin-bottom: 20px;" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
+    <a class="btn btn-info" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
   </div>
 </div>
 
