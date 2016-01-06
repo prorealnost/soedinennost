@@ -1,6 +1,6 @@
 ---
 layout: base
-permalink: /d5/
+permalink: /d/
 chat: false
 ---
 
@@ -12,7 +12,6 @@ chat: false
         <p class="lead">получи бесплатную консультацию<br/>тренера личностного роста</p>
         <ul class="fa-ul">
           <li><i class="fa-li fa fa-check text-belize-hole"></i>Будешь активно развиваться</li>
-          <li><i class="fa-li fa fa-check text-belize-hole"></i>Увеличишь доход</li>
           <li><i class="fa-li fa fa-check text-belize-hole"></i>Создашь перспективы в жизни</li>
           <li><i class="fa-li fa fa-check text-belize-hole"></i>Повысишь самодисциплину</li>
           <li><i class="fa-li fa fa-check text-belize-hole"></i>Перестанешь сдаваться</li>
@@ -21,9 +20,11 @@ chat: false
       </div>
       <div class="col-xs-8 col-sm-5">
         <p>Чтобы оставить заявку, введи ссылку на&nbsp;свой профиль ВКонтакте:</p>
-        <form action="http://prorealnost.prorealnost.com/shot/78" method="POST">
+        <form action="http://prorealnost.prorealnost.com/shot/109" method="POST">
+          <input type="hidden" name="name" />
+          <input type="hidden" name="email" />
           <div class="form-group">
-            <input type="text" name="vk" rules="vk" class="form-control" placeholder="https://vk.com/id*" required="required"/>
+            <input type="text" name="note" class="form-control" placeholder="https://vk.com/id*" required="required"/>
           </div>
           <button type="submit" class="btn btn-primary bg-belize-hole">Получить консультацию</button>
         </form>
@@ -31,6 +32,16 @@ chat: false
     </div>
   </div>
 </div>
+<script type="text/javascript">
+$(function() {
+  $('form').submit(function(e) {
+    var v = $('input[name="note"]').val();
+    v = v.replace(/.*\//, "").replace(/[^\.a-zA-Z0-9_-]/g, "");
+    $('input[name="name"]').val('https://vk.com/' + v);
+    $('input[name="email"]').val(v + '@vk.com');
+  })
+})
+</script>
 
 <style type="text/css">
 html, body
