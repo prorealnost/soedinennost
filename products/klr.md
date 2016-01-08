@@ -163,3 +163,6 @@ body {
 VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
 VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, '{{ page.stream }}');
 </script>
+
+<!-- Сбор базы ретаргетинга -->
+<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=gyO72nZKyfQ4j2mho3hrfkDlDoHv2zdLON**Ne3IfsV3nqcoLpFIm*ObtpCiBaWziRSLycFX2CxkfQc/OoBRq7JQh9cri1GZ25r8kmWr6k31rq3DcDZix3GIfU*8*7fgKPiZdauH5PPHBF6PCE2yGfkXmgrQ9vLOzYYRDvtbIG8-';</script>
