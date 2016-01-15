@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Клуб личностного роста Николая Воробьёва 2.0
-permalink: /klr20/
+permalink: /klr/
 chat: false
 header: 
   title: "Клуб личностного роста<br/>Николая Воробьёва"
@@ -85,7 +85,7 @@ format:
     icon: pencil
     text: Упражнения и домашние задания, которые надо делать
 
-pricing: 
+pricing:
   - 
     name: "БЕСПЛАТНО"
     href: "#bonus"

@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Клуб личностного роста Николая Воробьёва
-permalink: /klr/
+permalink: /klr-1.0/
 chat: false
 header: 
   title: "Клуб личностного роста<br/>Николая Воробьёва"
