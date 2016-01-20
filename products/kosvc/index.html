@@ -6,11 +6,21 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Название компании</title>
-    <meta property="og:title" content="Название компании">
-    <meta property="twitter:title" content="Название компании">
+    <title>Как за 2 часа выбрать цель</title>
+    <meta property="og:title" content="Как за 2 часа выбрать цель">
+    <meta property="twitter:title" content="Как за 2 часа выбрать цель">
     <meta name="twitter:card" content="summary">
     <link rel="preload" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic" as="font">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <style type="text/css">
+        .container-fluid {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
     <link href="./index_files/core.css" rel="stylesheet" type="text/css" media="all">
     <link href="./index_files/61358.css" rel="stylesheet" type="text/css" media="all">
     <style id="core_style">@media (min-height:699px) and (max-height:700px) { html body { min-height: 699px; } }</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="./index_files/svg4everybody.js" src="./index_files/svg4everybody.js"></script>
@@ -442,5 +452,47 @@
 </div>
 <noindex><div class="policy_window" style="display: none"><a class="close"></a><div class="policy_data"><div><h2>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h2><p>Соблюдение Вашей конфиденциальности важно для нас. По этой причине, мы разработали Политику Конфиденциальности, которая описывает, как мы используем и храним Вашу информацию. Пожалуйста, ознакомьтесь с нашими правилами соблюдения конфиденциальности и сообщите нам, если у вас возникнут какие-либо вопросы.</p><h3>Сбор и использование персональной информации</h3><p>Под персональной информацией понимаются данные, которые могут быть использованы для идентификации определенного лица либо связи с ним.</p><p>От вас может быть запрошено предоставление вашей персональной информации в любой момент, когда вы связываетесь с нами. </p><p>Ниже приведены некоторые примеры типов персональной информации, которую мы можем собирать, и как мы можем использовать такую информацию.</p><h4>Какую персональную информацию мы собираем</h4><ul><li>Когда вы оставляете заявку на сайте, мы можем собирать различную информацию, включая ваши имя, номер телефона, адрес электронной почты и т.д.</li></ul><h4>Как мы используем вашу персональную информацию</h4><ul><li>Собираемая нами персональная информация позволяет нам связываться с вами и сообщать об уникальных предложениях, акциях и других мероприятиях и ближайших событиях. </li><li>Время от времени, мы можем использовать вашу персональную информацию для отправки важных уведомлений и сообщений. </li><li>Мы также можем использовать персональную информацию для внутренних целей, таких как проведения аудита, анализа данных и различных исследований в целях улучшения услуг предоставляемых нами и предоставления Вам рекомендаций относительно наших услуг.</li><li>Если вы принимаете участие в розыгрыше призов, конкурсе или сходном стимулирующем мероприятии, мы можем использовать предоставляемую вами информацию для управления такими программами.</li></ul><h3>Раскрытие информации третьим лицам</h3><p>Мы не раскрываем полученную от Вас информацию третьим лицам. </p><h4>Исключения</h4><p>В случае если необходимо — в соответствии с законом, судебным порядком, в судебном разбирательстве, и/или на основании публичных запросов или запросов от государственных органов на территории РФ — раскрыть вашу персональную информацию. Мы также можем раскрывать информацию о вас если мы определим, что такое раскрытие необходимо или уместно в целях безопасности, поддержания правопорядка, или иных общественно важных случаях.</p><p>В случае реорганизации, слияния или продажи мы можем передать собираемую нами персональную информацию соответствующему третьему лицу – правопреемнику.</p><h3>Защита персональной информации</h3><p>Мы предпринимаем меры предосторожности — включая административные, технические и физические — для защиты вашей персональной информации от утраты, кражи, и недобросовестного использования, а также от несанкционированного доступа, раскрытия, изменения и уничтожения.</p><h3>Соблюдение вашей конфиденциальности на уровне компании</h3><p>Для того чтобы убедиться, что ваша персональная информация находится в безопасности, мы доводим нормы соблюдения конфиденциальности и безопасности до наших сотрудников, и строго следим за исполнением мер соблюдения конфиденциальности.</p></div></div></div></noindex>
 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+{% include analytics.html %}
+
+<script type="text/javascript">
+$(function(){
+    var modalfired = false;
+    function addEvent(obj, evt, fn) {
+        if (obj.addEventListener) {
+            obj.addEventListener(evt, fn, false);
+        }
+        else if (obj.attachEvent) {
+            obj.attachEvent("on" + evt, fn);
+        }
+    }
+    addEvent(document, 'mouseout', function(evt) {
+      if (evt.toElement == null && evt.relatedTarget == null && modalfired == false) {
+        modalfired = true;
+        $('#myModal').modal('show');
+      }
+    });
+})
+</script>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 class="modal-title">А хочешь подарок?</h1>
+      </div>
+      <div class="modal-body text-center">
+        <p class="lead"><b>Пошаговая инструкция<br/>для изменения жизни к лучшему</b></p>
+        <p class="lead">17 шагов, которые ты можешь сделать уже сегодня, чтобы привести свою жизнь в порядок</p>
+      </div>
+      <div class="modal-footer text-center">
+        <a href="/17-steps-2/" class="btn btn-lg btn-block btn-primary"><b>Получить подарок!</b></a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Нет, спасибо</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 </body></html>

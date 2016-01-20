@@ -118,7 +118,8 @@ author:
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="well">
-          <form action="http://prorealnost.prorealnost.com/shot/78" method="POST">
+          <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+            <input type="hidden" name="redirect" value="http://soedinennost.com/enjoy/17-steps.pdf"/>
             <div class="form-group">
               <input type="text" name="name" class="form-control input-lg" placeholder="Имя" required="required"/>
             </div>
