@@ -84,7 +84,7 @@ author:
   <div style="
     min-width: 1000px;
     min-height: 600px;
-    background-image: url(http://prorealnost.com/data/media/prorealnost/me.jpg);
+    background-image: url(/images/me.jpg);
     background-repeat: no-repeat;
     background-position: left bottom;
     border-bottom: solid #e0e0e0 3px;
