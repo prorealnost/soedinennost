@@ -2,6 +2,7 @@
 layout: default
 title: Как за 2 часа выбрать цель, которая будет вдохновлять тебя целый год
 permalink: /kosvc-enjoy/
+extracounter: 34825730
 ---
 
 <h1 class="text-center"><i class="fa fa-thumbs-up text-peter-river fa-5x"></i></h1>

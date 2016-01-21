@@ -2,6 +2,8 @@
 layout: landing
 title: 17 шагов чтобы привести свою жизнь в порядок
 
+extracounter: 34825730
+
 ## ЦА №2 — специалисты
 
 permalink: /kosvc-17-steps/

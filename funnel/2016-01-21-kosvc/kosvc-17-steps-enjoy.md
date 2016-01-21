@@ -2,6 +2,7 @@
 layout: default
 title: 17 шагов чтобы привести свою жизнь в порядок
 permalink: /kosvc-17-steps-enjoy/
+extracounter: 34825730
 ---
 
 <h1 class="text-center"><i class="fa fa-thumbs-up text-peter-river fa-5x"></i></h1>

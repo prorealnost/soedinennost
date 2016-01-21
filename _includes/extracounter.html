@@ -1,13 +1,16 @@
-<!-- Yandex.Metrika counter МЕТРИКА ОЗОРИШИНА https://metrika.yandex.ru/34617145 -->
+{% if page.extracounter %}
+<!-- Yandex.Metrika counter – дополнительный счётчик extracounter {{ page.extracounter }} -->
 <script type="text/javascript">
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
-                w.yaCounter34617145 = new Ya.Metrika({
-                    id:34617145,
+                w.yaCounter{{ page.extracounter }} = new Ya.Metrika({
+                    id:{{ page.extracounter }},
                     clickmap:true,
                     trackLinks:true,
                     accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true,
                     ut:"noindex"
                 });
             } catch(e) { }
@@ -25,5 +28,6 @@
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/34617145?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/{{ page.extracounter }}?ut=noindex" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+{% endif %}
