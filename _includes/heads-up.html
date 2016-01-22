@@ -1,7 +1,28 @@
 <div id="heads-up">
   <div class="container">
     <h1>Технология лёгкого достижения целей</h1>
-    <p class="lead">как получить результаты, которые принадлежат тебе по праву</p>
-    <p><a class="btn btn-info" href="http://prorealnost.com/shot/50"><b>Скачать</b> инструкцию для начинающих</a></p>
+    <p>Скачай инструкцию, чтобы получить результаты, которые принадлежат тебе по праву</p>
+    <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+      <div class="form-group">
+        <div class="col-sm-3">
+          <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-3">
+          <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-3">
+          <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <button type="submit" class="btn btn-info btn-block">Скачать</button>
+      </div>
+      <input type="hidden" name="mailchimp-product-interest-id" value="cb30125b8e" />
+      <input type="hidden" name="redirect" value="http://soedinennost.com/tdc/" />
+    </form>
   </div>
 </div>
