@@ -1,0 +1,31 @@
+---
+layout: default
+title: Полезные материалы по категориям
+permalink: /cats/
+---
+
+<div class="margin"></div>
+
+<div id="main" role="main" class="container">
+  <div class="posts">
+    {% for cat in site.cats %}
+      <article class="cat">
+
+        <h1><a href="{{ site.baseurl }}{{ cat.url }}">{{ cat.title }}</a></h1>
+
+        <ul>
+          {% for post in site.posts %}
+            {% if post.cat == cat.title %}
+              <li>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">{{ post.title }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="margin"></div>
