@@ -1,18 +1,21 @@
 ---
 layout: default
-title: Полезные материалы по категориям
+title: Полезные материалы по шагам
 permalink: /cats/
 ---
 
 <div class="margin"></div>
 
 <div id="main" role="main" class="container">
+  <h1>{{ page.title }}</h1>
+  <p>Наша технология достижения целей быстро и с удовольствием состоит из 8 шагов.</p>
+  <p>Здесь ты можешь найти материалы по каждому шагу.</p>
   <div class="posts">
-    {% for cat in site.cats %}
+    {% assign cats = site.cats | sort: 'n' %}
+    {% for cat in cats %}
       <article class="cat">
-
-        <h1><a href="{{ site.baseurl }}{{ cat.url }}">{{ cat.title }}</a></h1>
-
+        <h1><a href="{{ site.baseurl }}{{ cat.url }}">Шаг {{ cat.n }}. {{ cat.title }}</a></h1>
+        {{ cat.content | markdownify }}
         <ul>
           {% for post in site.posts %}
             {% if post.cat == cat.title %}
