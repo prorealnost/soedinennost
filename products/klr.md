@@ -163,6 +163,27 @@ body {
 VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
 VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, '{{ page.stream }}');
 </script>
+<script type="text/javascript">
+$(function(){
+  VK.Observer.subscribe("widgets.comments.new_comment", function f(num, last_comment, date, sign)
+  {
+    console.log(date);
+    $.post(
+      'http://z.prorealnost.com/order_and_redirect.php',
+      {
+        name: 'КЛР',
+        text: last_comment,
+        num: num,
+        date: date,
+        no_trello: true
+      },
+      function(){
+        console.log('ok');
+      }
+    )
+  });
+});
+</script>
 
 <!-- Сбор базы ретаргетинга -->
 <script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=gyO72nZKyfQ4j2mho3hrfkDlDoHv2zdLON**Ne3IfsV3nqcoLpFIm*ObtpCiBaWziRSLycFX2CxkfQc/OoBRq7JQh9cri1GZ25r8kmWr6k31rq3DcDZix3GIfU*8*7fgKPiZdauH5PPHBF6PCE2yGfkXmgrQ9vLOzYYRDvtbIG8-';</script>
