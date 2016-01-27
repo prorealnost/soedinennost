@@ -55,9 +55,9 @@ items:
       </a>
     </div>
     <div class="media-body">
-      <h2 class="media-heading"><a href="http://prorealnost.prorealnost.com/shot/98">{{ item.title }}</a></h2>
+      <h2 class="media-heading">{{ item.title }}</h2>
       {{ item.content | markdownify }}
-      <p><a href="http://prorealnost.prorealnost.com/shot/98">Купить запись этого занятия</a></p>
+      <p><a href="/klr/pay4oneday/?name={{ item.name }}&title={{ item.title }}&date={{ item.date }}">Купить запись этого занятия</a></p>
     </div>
   </div>
   <hr/>
