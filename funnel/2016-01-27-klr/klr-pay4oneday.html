@@ -1,0 +1,63 @@
+---
+layout: landing
+title: Получить запись занятия Клуба личностного роста
+permalink: /klr/pay4oneday/
+chat: false
+extracounter: 34825730
+---
+<div class="section">
+  <div class="container">
+    <p class="lead text-center" id="title"></p>
+    <h1 class="text-center">Выберите способ оплаты</h1>
+    <p class="lead text-center">к оплате 900 рублей</p>
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>кошелёк<br/>Яндекс.Деньги<h2>
+        <iframe id="yamoney-payment" frameborder="0" allowtransparency="true" scrolling="no" src="" width="196" height="54"></iframe>
+      </div>
+      <div class="col-sm-4">
+        <h2>карта Visa<br/>или&nbsp;MasterCard<h2>
+        <iframe id="any-card-payment" frameborder="0" allowtransparency="true" scrolling="no" src="" width="196" height="54"></iframe>
+      </div>
+      <div class="col-sm-4">
+        <h2>со&nbsp;счёта<br/>мобильного<h2>
+        <iframe id="mobile-payment" frameborder="0" allowtransparency="true" scrolling="no" src="" width="196" height="54"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function getParameterByName(name) {
+  name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+  var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+  return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+$(function(){
+  var title = getParameterByName('title');
+  var name = getParameterByName('name');
+  var date = getParameterByName('date');
+  var successURL = 'http://soedinennost.com/enjoy/klr/' + date + '-' + name + '/';
+  $('#title').text(title);
+
+  $('iframe').each(function(){
+    var obj = {};
+    obj['account'] = '41001469914505';
+    obj['quickpay'] = 'small';
+    obj['button-text'] = '02';
+    obj['button-size'] = 'l';
+    obj['button-color'] = 'orange';
+    obj['targets'] = title;
+    obj['default-sum'] = '900';
+    obj['fio'] = 'on';
+    obj['mail'] = 'on';
+    obj['phone'] = 'on';
+    obj['successURL'] = successURL;
+    obj[$(this).attr('id') + '-type'] = 'on';
+
+    var url = 'https://money.yandex.ru/embed/small.xml?' + $.param(obj);
+    $(this).attr('src', url);
+  })
+});
+</script>
