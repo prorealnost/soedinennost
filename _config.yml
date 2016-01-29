@@ -30,8 +30,8 @@ navigation:
   url: /blog/
 - text: Отзывы и кейсы
   url: /ok/
-- text: Партнёрка
-  url: /partner/
+#- text: Партнёрка
+#  url: /partner/
 - text: О проекте
   url: /about/
 
