@@ -1,0 +1,190 @@
+---
+layout: landing
+permalink: /17x4/
+title: Руководство по внедрению «17 шагов» за 4 дня
+header: 
+  buttontitle: "Получить"
+  morebuttontitle: "Узнать больше"
+features:
+  - title: Поднимешь ценность своего слова
+    icon: fa fa-4x fa-bank
+  - title: Выберешь достойные вдохновляющие цели
+    icon: fa fa-4x fa-crosshairs
+  - title: Составишь план конкретных действий
+    icon: fa fa-4x fa-list
+  - title: Вовлечёшь нужных людей
+    icon: fa fa-4x fa-users
+days:
+  - number: 1 (сегодня)
+    title: Слово
+    result: Сегодня ты освободишься от невыполненных обещаний и незавершённых дел. Наведёшь порядок в жизни.
+    benefit: Человек стоит ровно столько, сколько стоит его слово. Это тот самый день, когда ты наконец сделаешь своё слово весомым и ценным.
+    taskcount: 6
+
+  - number: 2
+    title: Цели
+    result: Завтра ты выберешь достойную цель, нужного размера, которую приятно достигать, и в достижение которой можно вовлечь других людей. Избавишься от лишних, тормозящих тебя целей.
+    benefit: Станешь целеустремлённым и уверенным, не будешь распыляться, а только двигаться в нужном направлении.
+    taskcount: 6
+
+  - number: 3
+    title: Действия
+    result: Послезавтра ты составишь план действий и начнёшь по нему действовать. А ещё избавишься от отвлекающих факторов.
+    benefit: Если каждый день делать шаг в сторону цели, то рано или поздно ты дойдёшь до неё.
+    taskcount: 5
+
+  - number: 4
+    title: Взаимодействия
+    result: В последний, четвёртый день программы ты составишь список нужных тебе людей и найдёшь их. Вовлечёшь их двигаться к цели вместе с тобой, создашь договорённости, и позаботишься, чтобы договорённости соблюдались и сроки держались.
+    benefit: Больших целей невозможно достичь в одиночку. Ты соберёшь команду, и будешь двигаться вместе с ними.
+    taskcount: 5
+extracounter: 35033780
+---
+
+<div class="bg-primary" id="one">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="title">
+            <li>Руководство</li>
+            <li>по&nbsp;внедрению</li>
+            <li>«17&nbsp;шагов»</li>
+            <li>за&nbsp;4&nbsp;дня</h1>
+          </ul>
+
+          <ul class="subtitle">
+            <li>22&nbsp;практических задания,</li>
+            <li>которые быстро повысят</li>
+            <li>твою <b>ответственность</b></li>
+            <li>и&nbsp;<b>продуктивность</b></li>
+          </ul>
+
+          <div class="clearfix"></div>
+
+          <p>
+            <a class="btn btn-danger" href="#pricing"><i class="fa fa-arrow-right"></i> {{ page.header.buttontitle }}</a>
+            &nbsp;
+            <a class="btn btn-info" href="#more"><i class="fa fa-arrow-down"></i> {{ page.header.morebuttontitle }}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section bg-clouds-lighter" id="more">
+  <div class="container">
+    <h1 class="title">Всего за 4 дня ты:</h1>
+    <div class="row">
+      {% for feature in page.features %}
+        <div class="col-xs-6 col-sm-3 text-center" style="margin-bottom: 40px;">
+          <div class="ico"><i class="{{ feature.icon }}"></i></div>
+          <h3>{{ feature.title }}</h3>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+#one {
+  background-image: url(/images/plant-soil-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+ul.title li {
+  color: #fff;
+  display: block;
+  float: left;
+  clear: both;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  background: rgba(0,0,0,0.75);
+  font-size: 58px;
+  line-height: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+ul.subtitle li {
+  display: block;
+  float: left;
+  clear: both;
+  margin-bottom: 4px;
+  padding: 3px 8px;
+  background: rgba(0,0,0,0.75);
+  font-size: 26px;
+  line-height: 100%;
+  font-family: "Open Sans",Arial;
+  font-weight: 300;
+}
+ul.title, ul.subtitle {
+  margin-left: 0;
+  padding-left: 0;  
+}
+h1.title {
+  margin: 15px 0 50px 0;
+  text-align: center;
+  color: #34383a;
+  font-size: 48px;
+  line-height: 56px;
+  font-family: "Open Sans",Arial;
+  font-weight: 400;
+}
+.bg-primary h1.title {
+  color: #fff;
+}
+</style>
+
+<div class="section">
+  <div class="container">
+    <h1 class="title">Программа первых 4 дней<br/>твоей новой жизни:</h1>
+    {% for day in page.days %}
+      <h1 class="text-muted">День {{ day.number }}: {{ day.title }}</h1>
+      <div class="row">
+        <div class="col-xs-6">
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-2x fa-check"></i>
+            </div>
+            <div class="media-body">
+              {{ day.result }}
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6">
+          <div class="media">
+            <div class="media-left">
+              <i class="fa fa-2x fa-flag"></i>
+            </div>
+            <div class="media-body">
+              {{ day.benefit }}
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr/>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section bg-primary" id="pricing">
+  <div class="container">
+    <h1 class="title">Заказать руководство по&nbsp;внедрению &laquo;17&nbsp;шагов&raquo; за&nbsp;4&nbsp;дня и&nbsp;<b>начать новую жизнь уже сегодня</b></h1>
+    <p class="lead text-center">цена 450 рублей</p>
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>кошелёк<br/>Яндекс.Деньги<h2>
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/small.xml?account=41001469914505&quickpay=small&yamoney-payment-type=on&button-text=02&button-size=l&button-color=orange&targets=%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D1%8E%20%C2%AB17%20%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%C2%BB%20%D0%B7%D0%B0%204%20%D0%B4%D0%BD%D1%8F&default-sum=450&fio=on&mail=on&phone=on&successURL=http%3A%2F%2Fsoedinennost.com%2F17x4-enjoy" width="196" height="54"></iframe>
+      </div>
+      <div class="col-sm-4">
+        <h2>карта Visa<br/>или&nbsp;MasterCard<h2>
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/small.xml?account=41001469914505&quickpay=small&any-card-payment-type=on&button-text=02&button-size=l&button-color=orange&targets=%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D1%8E%20%C2%AB17%20%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%C2%BB%20%D0%B7%D0%B0%204%20%D0%B4%D0%BD%D1%8F&default-sum=450&fio=on&mail=on&phone=on&successURL=http%3A%2F%2Fsoedinennost.com%2F17x4-enjoy" width="196" height="54"></iframe>
+      </div>
+      <div class="col-sm-4">
+        <h2>со&nbsp;счёта<br/>мобильного<h2>
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/small.xml?account=41001469914505&quickpay=small&mobile-payment-type=on&button-text=02&button-size=l&button-color=orange&targets=%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%20%D0%B2%D0%BD%D0%B5%D0%B4%D1%80%D0%B5%D0%BD%D0%B8%D1%8E%20%C2%AB17%20%D1%88%D0%B0%D0%B3%D0%BE%D0%B2%C2%BB%20%D0%B7%D0%B0%204%20%D0%B4%D0%BD%D1%8F&default-sum=450&fio=on&mail=on&phone=on&successURL=http%3A%2F%2Fsoedinennost.com%2F17x4-enjoy" width="196" height="54"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
