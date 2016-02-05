@@ -22,9 +22,6 @@ $(function() {
 
   $.ajax({
     url: 'http://z.prorealnost.com/mailchimp_update_income.php',
-    xhrFields: {
-      withCredentials: true
-    },
     data: {
       mcid: getParameterByName('mcid'),
       income: getParameterByName('income')
