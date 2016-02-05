@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: landing
 title: 17 шагов чтобы привести свою жизнь в порядок
 permalink: /17-enjoy/
 extracounter: 35033780
@@ -10,3 +10,29 @@ extracounter: 35033780
   <h1 class="text-center">Спасибо за&nbsp;заказ инструкции &laquo;17&nbsp;шагов&raquo; по&nbsp;приведению жизни в&nbsp;порядок!</h1>
   <p class="text-center lead text-muted"><a href="/enjoy/17-steps.pdf" download><i class="fa fa-download"></i> Скачать инструкцию здесь</a></p>
 </div>
+
+<script type="text/javascript">
+$(function() {
+  function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+
+  $.ajax({
+    url: 'http://z.prorealnost.com/mailchimp_update_income.php',
+    xhrFields: {
+      withCredentials: true
+    },
+    data: {
+      mcid: getParameterByName('mcid'),
+      income: getParameterByName('income')
+    }
+  }).done(
+    function(data){
+      console.log(data);
+    }
+  );
+})
+</script>
