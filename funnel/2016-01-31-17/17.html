@@ -140,6 +140,7 @@ extracounter: 35033780
             <input type="hidden" name="CONTENT"/>
             <input type="hidden" name="TERM"/>
             <input type="hidden" name="PAGE"/>
+            <input type="hidden" name="EMAILHASH"/>
             <button type="submit" class="btn btn-primary btn-lg btn-block">Получить инструкцию</button>
           </form>
         </div>
@@ -148,6 +149,7 @@ extracounter: 35033780
   </div>
 </div>
 
+<script src="/vendor/md5.js"></script>
 <script type="text/javascript">
 $(function(){
   function getParameterByName(name) {
@@ -178,6 +180,12 @@ $(function(){
   }
 
   $('input[name="PAGE"]').val(document.location.href);
+
+  $('input[name="EMAIL"]').change(function(){
+    var value = $(this).val();
+    value = md5(value.toLowerCase());
+    $('input[name="EMAILHASH"]').val(value);
+  })
 })
 
 </script>
