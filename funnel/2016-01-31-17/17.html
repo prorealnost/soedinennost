@@ -134,6 +134,12 @@ extracounter: 35033780
             <div style="position: absolute; left: -5000px;" aria-hidden="true">
               <input type="text" name="b_ba29e3d177929ef1d8637d1a5_2061e886f2" tabindex="-1" value="">
             </div>
+            <input type="hidden" name="SOURCE"/>
+            <input type="hidden" name="MEDIUM"/>
+            <input type="hidden" name="CAMPAIGN"/>
+            <input type="hidden" name="CONTENT"/>
+            <input type="hidden" name="TERM"/>
+            <input type="hidden" name="PAGE"/>
             <button type="submit" class="btn btn-primary btn-lg btn-block">Получить инструкцию</button>
           </form>
         </div>
@@ -141,3 +147,37 @@ extracounter: 35033780
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+$(function(){
+  function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+
+  var paramFields = {
+    utm_source: 'SOURCE',
+    utm_medium: 'MEDIUM',
+    utm_campaign: 'CAMPAIGN',
+    utm_content: 'CONTENT',
+    utm_term: 'TERM'
+  }
+
+  for (var paramName in paramFields) {
+    if (paramFields.hasOwnProperty(paramName)) {
+      var value = getParameterByName(paramName);
+      if (value) {
+        var fieldName = paramFields[paramName];
+        $('input[name="' + fieldName + '"]').each(function() {
+          $(this).val(value);
+        })
+      }
+    }
+  }
+
+  $('input[name="PAGE"]').val(document.location.href);
+})
+
+</script>
