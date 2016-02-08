@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Как бороться с негативными эмоциями
 type: cast
 cat: Готов

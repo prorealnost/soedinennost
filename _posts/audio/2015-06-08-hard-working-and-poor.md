@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: "Почему ты работаешь много, а зарабатываешь мало, и как это изменить"
 type: cast
 cat: Планка

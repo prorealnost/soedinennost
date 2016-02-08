@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Как прожить негативные эмоции чтобы они ушли
 type: cast
 cat: Готов

@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Как перестать сдаваться
 type: cast
 cat: Мотивация

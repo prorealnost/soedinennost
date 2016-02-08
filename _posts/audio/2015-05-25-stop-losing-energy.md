@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Как перестать уставать и терять силы
 type: cast
 cat: Мотивация

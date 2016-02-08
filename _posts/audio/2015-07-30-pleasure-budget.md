@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Техника «Бюджет удовольствий»
 type: cast
 cat: Продуктивность

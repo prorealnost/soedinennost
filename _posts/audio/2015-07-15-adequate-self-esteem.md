@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Адекватная самооценка
 type: cast
 cat: Готов

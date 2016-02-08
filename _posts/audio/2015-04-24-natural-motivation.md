@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Натуральная мотивация
 type: cast
 cat: Мотивация

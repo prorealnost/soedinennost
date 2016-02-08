@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Как найти мечту всей жизни
 type: cast
 cat: Выбор

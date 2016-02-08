@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Отложенное вознаграждение
 type: cast
 cat: Продуктивность

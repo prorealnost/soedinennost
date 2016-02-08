@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Как перестать бояться быть собой
 type: cast
 cat: Готов

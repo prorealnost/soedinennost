@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Почему занятия спортом важны для личностного роста / достижения успеха
 type: cast
 cat: Готов

@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Целостность
 type: cast
 cat: Готов

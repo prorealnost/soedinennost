@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Как отвлекаться от негативных мыслей и переживаний
 type: cast
 cat: Готов

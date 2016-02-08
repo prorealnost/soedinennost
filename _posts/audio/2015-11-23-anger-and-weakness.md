@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Злость и слабость
 type: cast
 cat: Готов

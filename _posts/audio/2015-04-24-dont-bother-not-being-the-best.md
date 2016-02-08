@@ -1,5 +1,5 @@
 ---
-layout: post-audio
+layout: post
 title: Даже не пытайся не быть самым лучшим
 type: cast
 cat: Планка
