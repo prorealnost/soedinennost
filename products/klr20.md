@@ -93,7 +93,7 @@ pricing:
     buttonclass: btn-primary bg-alizarin
     features:
       - В подарок за репост
-      - Две недели участия
+      - Первый месяц участия
       - + занятие по постановке целей
     button: Получить подарок
   - 
@@ -291,7 +291,7 @@ pricing:
 
 <div class="section bg-clouds-lighter" id="bonus">
   <div class="container">
-    <h1 class="text-center">Чтобы получить 2 недели участия в клубе + занятие по постановке целей в подарок</h1>
+    <h1 class="text-center">Чтобы получить первый месяц участия в клубе + занятие по постановке целей в подарок</h1>
   </div>
   <div class="content">
     <div class="numbercircle bg-pumpkin text-white text-strong" style="float: left;">1</div>
