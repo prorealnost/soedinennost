@@ -158,10 +158,10 @@ testimonials:
   <div class="container">
     <h1 class="text-center">Записывайся</h1>
     <div class="row">
-      <div class="col-sm-6 col-md-4 col-md-offset-2">
+      <div class="col-sm-6 col-md-6">
         <h2>Цена:</h2>
 
-        &euro;400 или 29000&nbsp;рублей
+        &euro;400 или 35000&nbsp;рублей
 
         <h2>Формат:</h2>
 
@@ -171,14 +171,24 @@ testimonials:
 
         {{ page.package | markdownify }}
       </div>
-      <div class="col-sm-6 col-md-4">
-        <h2>Нажми на кнопку:</h2>
+      <div class="col-sm-6 col-md-6">
+        <h2>Записаться на тренинг:</h2>
 
-        <a class="btn btn-lg btn-primary" style="padding: 10px 20px;" href="http://prorealnost.com/shot/55">
-          <span style="font-size: 120%;"><b>Записаться на тренинг</b></span>
-          <br/>
-          и совершить прорыв в жизни
-        </a>
+        <div class="well">
+          <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+            <input type="hidden" name="redirect" value="http://soedinennost.com/pobeditel-ok"/>
+            <div class="form-group">
+              <input type="text" name="name" class="form-control input-lg" placeholder="Имя" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" rules="phone" class="form-control input-lg" placeholder="Телефон" required="required"/>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control input-lg" placeholder="Емейл" required="required"/>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Оставить заявку</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>

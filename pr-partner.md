@@ -34,30 +34,30 @@ permalink: /pr-partner/
 
 Провёл тренинги в городах:
 
-* ![de](http://icoach.io/my/country/de.png) Frankfurt am Main, Германия
-* ![de](http://icoach.io/my/country/de.png) Dortmund, Германия
-* ![lv](http://icoach.io/my/country/lv.png) Riga, Латвия
-* ![cz](http://icoach.io/my/country/cz.png) Praha, Чехия
-* ![bg](http://icoach.io/my/country/bg.png) Sofia, Болгария
-* ![ua](http://icoach.io/my/country/ua.png) Киев, Украина
-* ![by](http://icoach.io/my/country/by.png) Минск, Беларусь
-* ![kz](http://icoach.io/my/country/kz.png) Алма-Ата, Казахстан
-* ![ru](http://icoach.io/my/country/ru.png) Москва
-* ![ru](http://icoach.io/my/country/ru.png) Санкт-Петербург
-* ![ru](http://icoach.io/my/country/ru.png) Новосибирск
-* ![ru](http://icoach.io/my/country/ru.png) Ростов-на-Дону
-* ![ru](http://icoach.io/my/country/ru.png) Самара
-* ![ru](http://icoach.io/my/country/ru.png) Омск
-* ![ru](http://icoach.io/my/country/ru.png) Томск
-* ![ru](http://icoach.io/my/country/ru.png) Кемерово
-* ![ru](http://icoach.io/my/country/ru.png) Владивосток
-* ![ru](http://icoach.io/my/country/ru.png) Екатеринбург
-* ![ru](http://icoach.io/my/country/ru.png) Казань
-* ![ru](http://icoach.io/my/country/ru.png) Уфа
-* ![ru](http://icoach.io/my/country/ru.png) Челябинск
-* ![ru](http://icoach.io/my/country/ru.png) Пермь
-* ![ru](http://icoach.io/my/country/ru.png) Липецк
-* ![ru](http://icoach.io/my/country/ru.png) Краснодар
+* ![de](/images/country/de.png) Frankfurt am Main, Германия
+* ![de](/images/country/de.png) Dortmund, Германия
+* ![lv](/images/country/lv.png) Riga, Латвия
+* ![cz](/images/country/cz.png) Praha, Чехия
+* ![bg](/images/country/bg.png) Sofia, Болгария
+* ![ua](/images/country/ua.png) Киев, Украина
+* ![by](/images/country/by.png) Минск, Беларусь
+* ![kz](/images/country/kz.png) Алма-Ата, Казахстан
+* ![ru](/images/country/ru.png) Москва
+* ![ru](/images/country/ru.png) Санкт-Петербург
+* ![ru](/images/country/ru.png) Новосибирск
+* ![ru](/images/country/ru.png) Ростов-на-Дону
+* ![ru](/images/country/ru.png) Самара
+* ![ru](/images/country/ru.png) Омск
+* ![ru](/images/country/ru.png) Томск
+* ![ru](/images/country/ru.png) Кемерово
+* ![ru](/images/country/ru.png) Владивосток
+* ![ru](/images/country/ru.png) Екатеринбург
+* ![ru](/images/country/ru.png) Казань
+* ![ru](/images/country/ru.png) Уфа
+* ![ru](/images/country/ru.png) Челябинск
+* ![ru](/images/country/ru.png) Пермь
+* ![ru](/images/country/ru.png) Липецк
+* ![ru](/images/country/ru.png) Краснодар
 
 [Страница в контакте](https://vk.com/nickvorobiov)
 ----

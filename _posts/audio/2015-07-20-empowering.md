@@ -3,11 +3,12 @@ layout: post
 title: Как правильно поддерживать людей
 type: cast
 cat: Мотивация
+project: soedinennost
+date: 2016-02-07
+slug: empowering
 ---
 
-Поддержка нужна каждому человеку в очень многих контекстах. То, что поддержка важна, мы понимаем, а как правильно поддерживать — сейчас ты узнаешь. (аудио)
-
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215506844&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+Поддержка нужна каждому человеку в очень многих контекстах. То, что поддержка важна, мы понимаем, а как правильно поддерживать — сейчас ты узнаешь.
 
 ## Краткий конспект
 

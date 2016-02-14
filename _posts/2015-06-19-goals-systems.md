@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Вместо целей
-type: cast
+type: article
 cat: План
 ---
 

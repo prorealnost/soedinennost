@@ -8,7 +8,7 @@ permalink: /coaching/
 
 <div class="flex-video widescreen"><iframe width="720" height="440" src="https://www.youtube.com/embed/7ykSiHcyXl8" frameborder="0" allowfullscreen></iframe></div>
 
-<p class="text-center"><a href="http://prorealnost.com/shot/49" class="btn btn-info btn-lg">Оставить заявку</a></p>
+<p class="text-center"><a href="https://vk.com/write684697" class="btn btn-info btn-lg">Оставить заявку</a></p>
 
 # Для кого
 
@@ -81,4 +81,4 @@ permalink: /coaching/
 
 **Полный коучинг — 6 месяцев**. За полгода коучинга ты реализуешь заявленные цели и выводишь свою жизнь на качественно новый уровень.
 
-<p class="text-center"><a href="http://prorealnost.com/shot/49" class="btn btn-info btn-lg">Оставить заявку</a></p>
+<p class="text-center"><a href="https://vk.com/write684697" class="btn btn-info btn-lg">Оставить заявку</a></p>

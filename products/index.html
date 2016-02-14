@@ -48,16 +48,17 @@ items:
 <h1 id="klr" style="margin-top: 60px;">Клуб личностного роста Николая Воробьёва</h1>
 <hr/>
 {% for item in site.klr %}
+  {% capture ref %}/klr/pay4oneday/?name={{ item.name }}&title={{ item.title | cgi_escape }}&date={{ item.date }}{% endcapture %}
   <div class="media">
     <div class="media-left">
-      <a href="http://prorealnost.prorealnost.com/shot/98">
+      <a href="{{ ref }}">
         <img class="media-object" src="/images/star256px.png" alt="{{ item.title }}" width="128" heigth="128" style="margin-right: 20px;">
       </a>
     </div>
     <div class="media-body">
       <h2 class="media-heading">{{ item.title }}</h2>
       {{ item.content | markdownify }}
-      <p><a href="/klr/pay4oneday/?name={{ item.name }}&title={{ item.title }}&date={{ item.date }}">Купить запись этого занятия</a></p>
+      <p><a href="{{ ref }}">Купить запись этого занятия</a></p>
     </div>
   </div>
   <hr/>

@@ -27,21 +27,9 @@ author:
 <div class="section bg-peter-river" id="pricing">
   <div class="container">
     <h1 class="text-center">Скачивай прямо сейчас</h1>
-    <div class="row">
-      <div class="col-sm-6 col-md-4 col-md-offset-2">
-        <h2>Цена:</h2>
-
-        &euro;7 или 450&nbsp;рублей
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <h2>Нажми на кнопку:</h2>
-
-        <a class="btn btn-lg btn-primary" style="padding: 10px 20px;" href="http://money.prorealnost.com/offer/order-kak-porvat-trudnoe-delo">
-          <span style="font-size: 120%;"><b>Скачать инструкцию</b></span>
-          <br/>
-          и порвать трудное дело
-        </a>
-      </div>
+    <p class="text-center">Цена: 450 рублей</p>
+    <div style="margin: 0 auto; width: 450px;">
+      <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/embed/shop.xml?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets=%D0%9A%D0%B0%D0%BA%20%D0%BF%D0%BE%D1%80%D0%B2%D0%B0%D1%82%D1%8C%20%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%B5%D0%BB%D0%BE&targets-hint=&default-sum=450&button-text=01&fio=on&mail=on&phone=on&successURL=http%3A%2F%2Fsoedinennost.com%2Fenjoy%2Fkptd" width="450" height="198"></iframe>
     </div>
   </div>
 </div>
