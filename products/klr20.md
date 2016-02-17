@@ -313,13 +313,14 @@ pricing:
   </div>
   <div class="content">
     <div id="vk_comments"></div>
+    <div id="vk_old_comments" class="vk_style">{% include klr-comments.html %}</div>
   </div>
 </div>
 
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
 <script type="text/javascript">
 VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
-VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, '{{ page.stream }}');
+VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, 'klr');
 </script>
 
 <!-- Сбор базы ретаргетинга -->
