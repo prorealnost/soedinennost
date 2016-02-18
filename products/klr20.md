@@ -321,6 +321,24 @@ pricing:
 <script type="text/javascript">
 VK.init({apiId: {{ site.vk_app_id }}, onlyWidgets: true});
 VK.Widgets.Comments("vk_comments", {width: 700, limit: 100, attach: "*"}, 'klr');
+
+VK.Observer.subscribe("widgets.comments.new_comment", function f(num, last_comment, date, sign){
+  $.ajax({
+    url: 'http://z.prorealnost.com/order_and_redirect.php',
+    method: 'POST',
+    xhrFields: {
+      withCredentials: true
+    },
+    data: {
+      num: num,
+      last_comment: last_comment,
+      date: date,
+      trello_list_id: '56c58a45cef0c302e3ed379a'
+    }
+  }).done(function(data){
+    console.log(data);
+  });
+});
 </script>
 
 <!-- Сбор базы ретаргетинга -->
