@@ -311,8 +311,8 @@ pricing:
       Мы тебе пришлём занятие по постановке целей, и ссылку для участия в клубе
     </p>
   </div>
-  <div class="content">
-    <div id="vk_comments"></div>
+  <div class="content" style="overflow: hidden;">
+    <div id="vk_comments" style="margin-top:-64px;"></div>
     <div id="vk_old_comments" class="vk_style">{% include klr-comments.html %}</div>
   </div>
 </div>
