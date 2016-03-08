@@ -338,6 +338,8 @@ VK.Observer.subscribe("widgets.comments.new_comment", function f(num, last_comme
   }).done(function(data){
     console.log(data);
   });
+  yaCounter32478820.hit('http://soedinennost.com/klr/comment', {referer: document.location.href});
+  yaCounter32478820.reachGoal('klr-comment');
 });
 </script>
 
