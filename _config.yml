@@ -42,6 +42,9 @@ collections:
   klr:
     output: true
     permalink: /klr/:path/
+  klr-weekly:
+    output: true
+    permalink: /klr-weekly/:path/
   cats:
     output: true
     permalink: /cats/:path/
@@ -57,6 +60,11 @@ defaults:
       type: klr
     values:
       layout: klr
+  - scope:
+      path: ""
+      type: klr-weekly
+    values:
+      layout: klr-weekly-landing
   - scope:
       path: ""
       type: cats
@@ -100,10 +108,10 @@ gems:
 
 # Exclude these files from your production _site
 exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
+  - node_modules
+  - package.json
+  - README.md
+  - gulpfile.js
 
 # Какой проект yo содержит шоты для этого фронтенда
 yo: prorealnost

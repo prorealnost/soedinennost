@@ -44,5 +44,11 @@ body p, body blockquote, body ul, body ol, body dl, body table, body pre {
   margin-bottom: 16px;
 }
 
+.dark {
+  position: relative;
+  background: rgba(0,0,0,0.35);
+}
+
+
 @import "colors";
 @import "flex-video";

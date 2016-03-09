@@ -1,0 +1,99 @@
+@mixin default-font {
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: normal;
+}
+
+.separator {
+  margin: 50px auto;
+  display: block;
+}
+
+#hero {
+  background-color: #1ea1ed;
+  color: white;
+
+  h1.subheadline {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    color: #bae6ff;
+    margin: 50px 0 0 0;
+    display: block;
+  }
+  h1.primary {
+    font-weight: 900;
+    font-size: 60px;
+    color: #fefefe;
+    line-height: 60px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  .host {
+    float: right;
+    width: auto;
+    margin: 20px 0 20px 20px;
+    white-space: nowrap;
+    text-align: center;
+    width: 200px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      padding: 5px;
+      background-color: #F5F5F6;
+      vertical-align: middle;
+      width: 200px;
+      height: 200px;
+    }
+    .title {
+      margin: 5px auto;
+      padding: 0;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 600;
+      color: #bae5ff;
+      text-align: center;
+    }
+    .name {
+      margin: 5px auto 0 auto;
+      padding: 0;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 700;
+      color: #faffff;
+      text-align: center;
+    }
+  }
+}
+
+#main {
+  padding: 40px 0;
+
+  .formholder {
+    padding: 15px 25px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+
+    p {
+      text-align: center;
+    }    
+  }
+}
+
+#features {
+  td {
+    @include default-font;
+    padding: 10px;
+  }
+}
+
+#cta {
+  padding: 100px 0;
+  background: #fafafa;
+}
