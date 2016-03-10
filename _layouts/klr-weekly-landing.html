@@ -13,7 +13,16 @@ layout: base
   </div>
 </header>
 {% include ribbon.html %}
-
+{% capture sitetime %}{{ site.time | date: '%Y%m%d %H:%M:%S' }}{% endcapture %}
+{% capture pagedate %}{{ page.date | date: '%Y%m%d %H:%M:%S' }}{% endcapture %}
+sitetime {{sitetime}} {{ sitetime | date_to_xmlschema }} pagedate {{pagedate}} {{ pagedate | date_to_xmlschema }}
+{% if sitetime < pagedate %}
+  webinar is in future
+{% elsif sitetime > pagedate %}
+  webinar is in past
+{% else %}
+  equal
+{% endif %}
 <section id="hero">
   <div class="container">
     <div class="host">
