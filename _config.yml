@@ -23,6 +23,8 @@ author: Николай Воробьёв
 # Flags below are optional
 #
 
+timezone: 'MSK'
+
 navigation:
 - text: Курсы и тренинги
   url: /products/
