@@ -15,5 +15,11 @@ $(function() {
     $(this).validate({
       rules: myrules,
     });
-  });
+  }).submit(function(e){
+    if ($(this).valid()) {
+      $(this).find('button[type="submit"]')
+        .html('<i class="fa fa-refresh fa-spin"></i>')
+        .attr('disabled','disabled');
+    }
+  })
 });
