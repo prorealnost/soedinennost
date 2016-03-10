@@ -12,7 +12,7 @@
       </div>
       <!--input type="hidden" name="mailchimp-product-interest-id" value="cb30125b8e" /-->
       <input type="hidden" name="trello-list-id" value="56dfc41274970b0f2c8b002b" />
-      <input type="hidden" name="redirect" value="http://soedinennost.com/enjoy/klr/{{ page.date }}-{{ page.name }}/" />
+      <input type="hidden" name="redirect" value="http://soedinennost.com/enjoy/klr/{{ page.date | date: "%Y-%m-%d" }}-{{ page.name }}/" />
     </form>
   </div>
 </section>
