@@ -112,6 +112,7 @@ exclude:
   - package.json
   - README.md
   - gulpfile.js
+  - fast.html
 
 # Какой проект yo содержит шоты для этого фронтенда
 yo: prorealnost

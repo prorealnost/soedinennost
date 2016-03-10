@@ -1,0 +1,18 @@
+<section class="form">
+  <div class="container">
+    <p class="text-center">Заполни форму чтобы забронировать место на&nbsp;вебинаре «{{ page.title }}»</p>
+    <form class="form-horizontal" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+      <div class="form-group">
+        <div class="col-sm-7 col-md-8">
+          <input type="email" name="email" class="form-control" placeholder="Введи сюда свою электронную почту" required="required"/>
+        </div>
+        <div class="col-sm-5 col-md-4">
+          <button type="submit" class="btn btn-warning btn-block" style="white-space: normal;">Забронируйте мне место &rarr;</button>
+        </div>
+      </div>
+      <!--input type="hidden" name="mailchimp-product-interest-id" value="cb30125b8e" /-->
+      <input type="hidden" name="trello-list-id" value="56dfc41274970b0f2c8b002b" />
+      <input type="hidden" name="redirect" value="http://soedinennost.com/enjoy/klr/{{ page.date }}-{{ page.name }}/" />
+    </form>
+  </div>
+</section>

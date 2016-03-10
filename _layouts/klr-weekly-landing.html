@@ -4,7 +4,15 @@ layout: base
 
 <link rel="stylesheet" type="text/css" href="/klr-weekly.css" />
 
-{% include header-light.html %}
+<header>
+  <div id="header" class="light">
+    <div class="container">
+      <h1 class="text-center">Клуб личностного роста</h1>
+      <p class="lead text-center">новый вебинар для&nbsp;твоего развития каждую неделю</p>
+    </div>
+  </div>
+</header>
+{% include ribbon.html %}
 
 <section id="hero">
   <div class="container">
@@ -13,52 +21,27 @@ layout: base
       <p class="title">Вебинар ведёт</p>
       <p class="name">Николай Воробьёв</p>
     </div>
-    <h1 class="subheadline">Бесплатный вебинар</h1>
+    <h1 class="subheadline">Тема этой недели</h1>
     <h1 class="primary">{{ page.title }}</h1>
     <p class="lead"><i class="fa fa-clock-o"></i> {{ page.subtitle }}</p>
   </div>
 </section>
 
-<section id="main">
+{% include klr-weekly-landing-form.html %}
+
+<section id="features">
   <div class="container">
-    <div class="col-sm-6">
-      <table id="features">
-        {% for feature in page.features %}
-          <tr>
-            <td class="img"><img src="/images/bulletimage{{ forloop.index }}.png" /></td>
-            <td class="text">{{ feature }}</td>
-          </tr>
-        {% endfor %}
-      </table>
-    </div>
-    <div class="col-sm-6">
-      <div class="formholder">
-        <p>Заполни форму чтобы забронировать место на&nbsp;вебинаре «{{ page.title }}»</p>
-        <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
-          <div class="form-group">
-            <input type="email" name="email" class="form-control" placeholder="Введи сюда свою электронную почту" required="required"/>
-          </div>
-          <button type="submit" class="btn btn-warning btn-lg btn-block" style="white-space: normal;">Забронируйте мне место &rarr;</button>
-          <!--input type="hidden" name="mailchimp-product-interest-id" value="cb30125b8e" /-->
-          <input type="hidden" name="trello-list-id" value="56dfc41274970b0f2c8b002b" />
-          <input type="hidden" name="redirect" value="http://delo.soedinennost.com/webinar-ok/" />
-        </form>
-      </div>
-    </div>
+    <table>
+      {% for feature in page.features %}
+        <tr>
+          <td class="img"><img src="/images/bulletimage{{ forloop.index }}.png" /></td>
+          <td class="text">{{ feature }}</td>
+        </tr>
+      {% endfor %}
+    </table>
   </div>
 </section>
 
-<section id="cta">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-8">
-        <p>Записывайся на вебинар и начинай менять свою жизнь к лучшему уже сегодня</p>
-      </div>
-      <div class="col-xs-4">
-        <button class="btn btn-success btn-lg btn-block" onclick="document.forms[0].elements[0].focus(); return false;">Записаться &rarr;</button>
-      </div>
-    </div>
-  </div>
-</section>
+{% include klr-weekly-landing-form.html %}
 
 {% include footer.html %}
