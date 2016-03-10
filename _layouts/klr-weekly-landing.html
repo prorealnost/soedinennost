@@ -13,16 +13,21 @@ layout: base
   </div>
 </header>
 {% include ribbon.html %}
+
 {% capture sitetime %}{{ site.time | date: '%Y%m%d %H:%M:%S' }}{% endcapture %}
-{% capture pagedate %}{{ page.date | date: '%Y%m%d %H:%M:%S' }}{% endcapture %}
-sitetime {{sitetime}} {{ sitetime | date_to_xmlschema }} pagedate {{pagedate}} {{ pagedate | date_to_xmlschema }}
+{% capture pagedate %}{{ page.date | date: '%Y%m%d 18:00:00' }}{% endcapture %}
+{% comment %} Указано время 18:00, потому что время начала показываем до 21 МСК (18 GMT) {% endcomment %}
+
 {% if sitetime < pagedate %}
-  webinar is in future
-{% elsif sitetime > pagedate %}
-  webinar is in past
+  {% capture subtitle %}<i class="fa fa-clock-o"></i> {{ page.subtitle }}{% endcapture %}
+  {% capture buttontext %}Забронируйте мне место &rarr;{% endcapture %}
+  {% capture formtitle %}Заполни форму чтобы забронировать место на&nbsp;вебинаре «{{ page.title }}»{% endcapture %}
 {% else %}
-  equal
+  {% capture subtitle %}{% endcapture %}
+  {% capture buttontext %}Получить запись вебинара{% endcapture %}
+  {% capture formtitle %}Заполни форму чтобы получить запись вебинара «{{ page.title }}»{% endcapture %}
 {% endif %}
+
 <section id="hero">
   <div class="container">
     <div class="host">
@@ -32,11 +37,11 @@ sitetime {{sitetime}} {{ sitetime | date_to_xmlschema }} pagedate {{pagedate}} {
     </div>
     <h1 class="subheadline">Тема этой недели</h1>
     <h1 class="primary">{{ page.title }}</h1>
-    <p class="lead"><i class="fa fa-clock-o"></i> {{ page.subtitle }}</p>
+    <p class="lead">{{ subtitle }}</p>
   </div>
 </section>
 
-{% include klr-weekly-landing-form.html %}
+{% include klr-weekly-landing-form.html formtitle=formtitle buttontext=buttontext %}
 
 <section id="features">
   <div class="container">
@@ -51,6 +56,6 @@ sitetime {{sitetime}} {{ sitetime | date_to_xmlschema }} pagedate {{pagedate}} {
   </div>
 </section>
 
-{% include klr-weekly-landing-form.html %}
+{% include klr-weekly-landing-form.html formtitle=formtitle buttontext=buttontext %}
 
 {% include footer.html %}
