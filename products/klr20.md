@@ -333,12 +333,13 @@ VK.Observer.subscribe("widgets.comments.new_comment", function f(num, last_comme
       num: num,
       last_comment: last_comment,
       date: date,
-      trello_list_id: '56c58a45cef0c302e3ed379a'
+      trello_list_id: '56c58a45cef0c302e3ed379a',
+      referer: document.location.href
     }
   }).done(function(data){
     console.log(data);
   });
-  yaCounter32478820.hit('http://soedinennost.com/klr/comment', {referer: document.location.href});
+  yaCounter32478820.hit('http://soedinennost.com/klr/comment/' + document.location.search, {referer: document.location.href});
   yaCounter32478820.reachGoal('klr-comment');
 });
 </script>
