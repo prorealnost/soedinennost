@@ -339,3 +339,7 @@ $numbercirclebase-md: 60px;
 .audiojs .scrubber {
   width: 288px;
 }
+
+.btn-block {
+  white-space: normal; // чтобы работал перенос текста
+}
