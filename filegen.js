@@ -1,5 +1,5 @@
 var fs = require('fs');
-var data = fs.readFileSync('./_klr-weekly/2016-03-09/_names.txt', 'utf8');
+var data = fs.readFileSync('./_klr-weekly/2016-03-23/_names.txt', 'utf8');
 
 var titles = data.toString().split("\n");
 
@@ -131,13 +131,13 @@ function url_slug(s, opt) {
 
 console.log(titles);
 
-var template = fs.readFileSync('./_klr-weekly/2016-03-09.yml', 'utf8');
+var template = fs.readFileSync('./_klr-weekly/2016-03-23.yml', 'utf8');
 
 for (var i = 0; i < slugs.length; i++) {
   slug = slugs[i];
   title = titles[i];
 
-  var filename = './_klr-weekly/2016-03-09/' + slug + '.md';
+  var filename = './_klr-weekly/2016-03-23/' + slug + '.md';
   var str = [
     '---',
     'title: "' + title + '"',
@@ -151,6 +151,6 @@ for (var i = 0; i < slugs.length; i++) {
   });
 };
 
-fs.writeFile('./_klr-weekly/2016-03-09/__slugs.txt', slugs.join("\n"), function (err) {
+fs.writeFile('./_klr-weekly/2016-03-23/__slugs.txt', slugs.join("\n"), function (err) {
   if (err) return console.log(err);
 });

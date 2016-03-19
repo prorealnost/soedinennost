@@ -1,11 +1,9 @@
-console.log('Server running at http://127.0.0.1:1337/');
-
 yaml = require('js-yaml');
 fs   = require('fs');
 
 // Get document, or throw exception on error
 //try {
-  var data = fs.readFileSync('./_klr-weekly/2016-03-09-brain-keywords.yml', 'utf8');
+  var data = fs.readFileSync('./_klr-weekly/2016-03-23-kso-keywords.yml', 'utf8');
   yaml.safeLoadAll(data, function (doc) {
     console.log(doc);
     if (doc) {
