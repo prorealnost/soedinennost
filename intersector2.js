@@ -3,19 +3,12 @@ fs   = require('fs');
 
 slug = '2015-11-25-sense';
 
-// Get document, or throw exception on error
-//try {
-  var data = fs.readFileSync('./_klr-weekly/' + slug + '-keywords.yml', 'utf8');
-  yaml.safeLoadAll(data, function (doc) {
-    console.log(doc);
-    if (doc) {
-      run(doc);
-    }
-  });
-  console.log('---');
-//} catch (e) {
-//  console.log(e);
-//}
+var data = fs.readFileSync('./_klr-weekly/' + slug + '-keywords.yml', 'utf8');
+yaml.safeLoadAll(data, function (doc) {
+  if (doc) {
+    run(doc);
+  }
+});
 
 function run(doc) {
   var pluswords = new RegExp(' (без|в|где|для|до|за|зачем|из|к|как|какой|кем|когда|кого|ком|кому|который|к'
@@ -25,20 +18,24 @@ function run(doc) {
     +'со|собой|собою|у|хочу|чего|чей|чем|чему|через|что|чём|я) ', 'g');
 
   var result = [];
-  doc.clusters.forEach(function(cluster) {
-    var res = [];
-    cluster.groups.forEach(function(group) {
+
+  doc.formulae.forEach(function(formula) {
+    console.log('// ' + formula.name);
+    var groups = [];
+    groups = formula.groupnames.map(function(groupname) {
+      return doc.groups[groupname];
+    });
+
+    var res = groups.splice(0, 1)[0];
+
+    groups.forEach(function(group) {
       var newres = [];
-      if (res.length == 0) {
-        res = group.words;
-      } else {
-        res.forEach(function(item){
-          group.words.forEach(function(word) {
-            newres.push((item + ' ' + word).trim());
-          })
+      res.forEach(function(item){
+        group.forEach(function(word) {
+          newres.push((item + ' ' + word).trim());
         })
-        res = newres;
-      }
+      })
+      res = newres;
     })
     result = result.concat(res);
   })

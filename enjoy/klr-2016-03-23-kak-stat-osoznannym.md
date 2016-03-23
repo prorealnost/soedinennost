@@ -2,7 +2,7 @@
 layout: club
 title: Клуб личностного роста Николая&nbsp;Воробьёва
 subtitle: Как стать осознанным
-permalink: /klr/2016-03-23-kak-stat-osoznannym/
+permalink: /enjoy/klr/2016-03-23-kso/
 stream: D24qf1H5IWQ
 event: https://plus.google.com/events/cbrost8vm25rgeb6np5vs5094tc
 chat: false
