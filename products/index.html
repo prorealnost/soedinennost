@@ -48,7 +48,7 @@ items:
 <h1 id="klr" style="margin-top: 60px;">Клуб личностного роста Николая Воробьёва</h1>
 <hr/>
 {% for item in site.klr %}
-  {% capture ref %}/klr/pay4oneday/?name={{ item.name }}&title={{ item.title | cgi_escape }}&date={{ item.date }}{% endcapture %}
+  {% capture ref %}/klr/pay4oneday/?name={{ item.name }}&title={{ item.title | cgi_escape }}&date={{ item.date | date: "%Y-%m-%d" }}{% endcapture %}
   <div class="media">
     <div class="media-left">
       <a href="{{ ref }}">

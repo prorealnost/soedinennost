@@ -18,4 +18,4 @@ layout: product
 
 {{ page.content | markdownify }}
 
-<a class="btn btn-danger" href="/klr/pay4oneday/?name={{ page.name }}&title={{ page.title }}&date={{ page.date }}">Купить запись занятия <b>«{{ page.title }}»</b></a> &nbsp; &nbsp; <a href="/products/#klr">Другие занятия</a>
+<a class="btn btn-danger" href="/klr/pay4oneday/?name={{ page.name }}&title={{ page.title | cgi_escape }}&date={{ page.date | date: "%Y-%m-%d" }}">Купить запись занятия <b>«{{ page.title }}»</b></a> &nbsp; &nbsp; <a href="/products/#klr">Другие занятия</a>

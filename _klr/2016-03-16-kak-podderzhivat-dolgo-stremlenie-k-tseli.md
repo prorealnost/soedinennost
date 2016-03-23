@@ -1,7 +1,7 @@
 ---
 title: Как поддерживать стремление к цели долго
-date: 2016-03-09
-name: klr-2016-03-16-kak-podderzhivat-stremlenie-k-tseli-dolgo ## название страницы /enjoy
+date: 2016-03-16
+name: kak-podderzhivat-stremlenie-k-tseli-dolgo ## название страницы /enjoy
 ---
 
 - Получать кайф от процесса выполнения цели. Если нет кайфа — пересмотреть цель
