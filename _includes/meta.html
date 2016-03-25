@@ -20,5 +20,5 @@
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
 
-    <meta property="og:image" content="{{ site.image }}"/>
+    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}"/>
     <link href="/images/favicon.ico" rel="shortcut icon"/>

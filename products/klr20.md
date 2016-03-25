@@ -3,6 +3,7 @@ layout: landing
 title: Клуб личностного роста Николая Воробьёва 2.0
 permalink: /klr/
 chat: false
+image: /images/og-image-klr.jpg
 header: 
   title: "Клуб личностного роста<br/>Николая Воробьёва"
   subtitle: "версия 2.0"
