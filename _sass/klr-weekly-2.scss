@@ -1,0 +1,159 @@
+#header-light {
+  padding: 10px 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+
+  img {
+    width: 180px;
+    height: auto;
+    float: left;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 27px;
+  }
+}
+
+section {
+  padding: 60px 0;
+}
+
+#hero {
+  background-color: #1ea1ed;
+  color: white;
+
+  padding: 60px 0;
+
+  h1.event-type {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    color: #bae6ff;
+    display: block;
+    margin: 0;
+  }
+  h1.event-name {
+    font-weight: 900;
+    font-size: 60px;
+    color: #fefefe;
+    line-height: 60px;
+    margin: 20px auto;
+    display: block;
+  }
+  .event-date {
+    font-weight: 900;
+    font-size: 30px;
+    color: #fefefe;
+    line-height: 32px;
+    margin: 20px auto;
+    display: block;
+
+    span {
+      color: #bae6ff;
+    }
+  }
+}
+
+.delim {
+  width: 42px;
+  height: 10px;
+  background: #5890c5;
+  margin-bottom: 30px;
+}
+
+#author {
+  h1 {
+    color: #5890c5;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: #5890c5;
+  }
+
+  .left {
+    text-align: center;
+    img {
+      width: 200px;
+      height: auto;
+    }
+  }
+}
+
+#what {
+  background: #f1f4f7;
+
+  h1 {
+    color: #5890c5;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  img {
+    width: 80px;
+    height: auto;
+  }
+}
+
+#cta {
+  background-color: #112;
+  color: #fff;
+
+  h1 {
+    font-size: 43px;
+    line-height: 49px;
+  }
+
+  h2 {
+    color: #39b1dd;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .date {
+    color: #fff;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+
+    .f-date {
+      font-size: 94px;
+      text-align: center;
+      line-height: 70px;
+      margin-top: 15px;
+    }
+    .s-date {
+      font-size: 46px;
+      text-align: center;
+    }
+    .delim {
+      background: #fff;
+      width: 83px;
+      height: 8px;
+      margin: 15px auto;
+    }
+    .t-date {
+      font-size: 62px;
+      text-align: center;
+      line-height: 40px;
+      margin-top: 25px;
+    }
+    .tt-date {
+      font-size: 30px;
+      text-align: center;
+      line-height: 40px;
+      margin-top: 5px;
+    }
+  }
+}
