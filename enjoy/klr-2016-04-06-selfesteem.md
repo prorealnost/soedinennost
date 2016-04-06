@@ -2,7 +2,7 @@
 layout: club
 title: Клуб личностного роста Николая&nbsp;Воробьёва
 subtitle: Как раскачать свою самооценку
-permalink: /klr/2016-04-06-selfesteem/
+permalink: /enjoy/klr/2016-04-06-selfesteem-boost/
 #/enjoy/klr/2016-04-06-selfesteem-boost/
 stream: xST53A3hAGQ
 event: https://plus.google.com/events/creqov9m5jbks3tila33r73r3bs
