@@ -23,9 +23,9 @@ permalink: /personal-energy/activity/
         <div class="form-group">
           <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
         </div>
-        <input type="hidden" name="mailchimp-product-interest-id" value="de84340749" />
-        <input type="hidden" name="trello-list-id" value="56f98b4ee419691feb2342fc" />
-        <input type="hidden" name="redirect" value="http://soedinennost.com/personal-energy-confirm/" />
+        <input type="hidden" name="mailchimp-product-interest-id" value="{{ page.mailchimp-product-interest-id }}" />
+        <input type="hidden" name="trello-list-id" value="{{ page.trello-list-id }}" />
+        <input type="hidden" name="redirect" value="{{ page.redirect }}" />
         <button type="submit" class="btn btn-warning"><span>Участвовать</span></button>
       </form>
     </div>
@@ -102,9 +102,9 @@ permalink: /personal-energy/activity/
             <div class="form-group">
               <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
             </div>
-            <input type="hidden" name="mailchimp-product-interest-id" value="de84340749" />
-            <input type="hidden" name="trello-list-id" value="56f98b4ee419691feb2342fc" />
-            <input type="hidden" name="redirect" value="http://soedinennost.com/personal-energy-confirm/" />
+            <input type="hidden" name="mailchimp-product-interest-id" value="{{ page.mailchimp-product-interest-id }}" />
+            <input type="hidden" name="trello-list-id" value="{{ page.trello-list-id }}" />
+            <input type="hidden" name="redirect" value="{{ page.redirect }}" />
             <button type="submit" class="btn btn-warning"><span>Получить</span></button>
           </form>
         </div>
