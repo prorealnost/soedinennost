@@ -2,7 +2,7 @@
 layout: club
 title: Клуб личностного роста Николая&nbsp;Воробьёва
 subtitle: Как двигаться к цели системно и непрерывно, не бросать и не останавливаться
-permalink: /klr/2016-04-13-consistency/
+permalink: /enjoy/klr/2016-04-13-consistency-boost/
 #/enjoy/klr/2016-04-13-consistency-boost/
 stream: QMSvAY5Z0wo
 event: https://plus.google.com/events/cj2t6hjg8mvv99li014f32vfml0
