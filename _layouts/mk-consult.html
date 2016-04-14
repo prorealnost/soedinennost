@@ -1,0 +1,100 @@
+---
+layout: landing
+---
+
+<link rel="stylesheet" type="text/css" href="/klr-weekly-2.css" />
+
+<div id="header-light">
+  <div class="container">
+    <img src="/images/logo.svg" />
+  </div>
+</div>
+
+<section id="hero">
+  <div class="container">
+    <h1 class="event-type">Бесплатный онлайн мастер-класс</h1>
+    <h1 class="event-name">{{ page.title }}</h1>
+    <div class="event-date"><span>Ты получишь запись мастер-класса и&nbsp;персональную онлайн-консультацию в&nbsp;подарок</span></div>
+    <div class="arrow"></div>
+    <div class="form">
+      <div class="lbl">Введи свою почту, чтобы получить запись мастер-класса и консультацию:</div>
+      <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+        <div class="form-group">
+          <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
+        </div>
+        <input type="hidden" name="mailchimp-product-interest-id" value="{{ page.mailchimp-product-interest-id }}" />
+        <input type="hidden" name="trello-list-id" value="{{ page.trello-list-id }}" />
+        <input type="hidden" name="redirect" value="{{ page.redirect }}" />
+        <button type="submit" class="btn btn-warning"><span>Получить</span></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="author">
+  <div class="container">
+    <h1>Ведущий:</h1>
+    <div class="delim"></div>
+    <div class="row">
+      <div class="col-xs-4 left">
+        <img src="/images/nickvorobiov-rounded.png"/>
+        <h2>Николай Воробьёв</h2>
+      </div>
+      <div class="col-xs-8">
+        <p class="title">Тренер и коуч <b>с 12-летним стажем,</b> на&nbsp;личном примере доказавший, что жизнь можно и&nbsp;нужно брать в&nbsp;свои руки</p>
+        <p>Помог <b>15&nbsp;тысячам участников</b> стать Победителями в разных сферах жизни</p>
+        <p>Написал и выпустил <b>5&nbsp;книг</b></p>
+        <p>Разработал <b>18&nbsp;эффективных тренингов,</b> с которыми объездил <b>20&nbsp;крупнейших городов</b> Европы и&nbsp;России</p>
+        <p>Внедрил свои программы по&nbsp;мотивации, продажам, переговорам и&nbsp;личной эффективности <b>в сотнях компаний</b></p>
+        <p>Тренирует <b>с&nbsp;2002&nbsp;года,</b> а&nbsp;с&nbsp;2006&nbsp;года регулярно выступает на&nbsp;радио и&nbsp;телевидении в качестве эксперта и&nbsp;ведущего</p>
+        <p>Выступал на телеканалах</p>
+        <img src="/images/partners/channels.png" class="img-responsive" style="max-height: 87px;"/>
+        <p>Обучал сотрудников компаний</p>
+        <img src="/images/partners/companies.png" class="img-responsive" style="max-height: 87px;"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="what">
+  <div class="container">
+    <h1>Мастер-класс поможет тебе:</h1>
+    <div class="row">
+      <div class="col-xs-3">
+        <img src="/images/square-emotions/icon1.png"/>
+        <h2>{{ page.features.one }}</h2>
+      </div>
+      <div class="col-xs-3">
+        <img src="/images/square-emotions/icon2.png"/>
+        <h2>{{ page.features.two }}</h2>
+      </div>
+      <div class="col-xs-3">
+        <img src="/images/square-emotions/icon3.png"/>
+        <h2>{{ page.features.three }}</h2>
+      </div>
+      <div class="col-xs-3">
+        <img src="/images/square-emotions/icon4.png"/>
+        <h2>{{ page.features.four }}</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cta">
+  <div class="container">
+    <h1>Получи доступ к&nbsp;записи мастер-класса и&nbsp;персональную онлайн-консультацию прямо сейчас!</h1>
+    <h2>Введи адрес своей электронной почты, чтобы получить запись мастер-класса и консультацию в подарок</h2>
+
+    <div class="form">
+      <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+        <div class="form-group">
+          <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
+        </div>
+        <input type="hidden" name="mailchimp-product-interest-id" value="{{ page.mailchimp-product-interest-id }}" />
+        <input type="hidden" name="trello-list-id" value="{{ page.trello-list-id }}" />
+        <input type="hidden" name="redirect" value="{{ page.redirect }}" />
+        <button type="submit" class="btn btn-warning"><span>Получить</span></button>
+      </form>
+    </div>
+  </div>
+</section>
