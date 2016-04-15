@@ -2,7 +2,7 @@
 layout: landing
 ---
 
-<link rel="stylesheet" type="text/css" href="/klr-weekly-2.css" />
+    <link rel="stylesheet" type="text/css" href="/mk-consult.css" />
 
 <div id="header-light">
   <div class="container">
@@ -12,89 +12,138 @@ layout: landing
 
 <section id="hero">
   <div class="container">
-    <h1 class="event-type">Бесплатный онлайн мастер-класс</h1>
     <h1 class="event-name">{{ page.title }}</h1>
-    <div class="event-date"><span>Ты получишь запись мастер-класса и&nbsp;персональную онлайн-консультацию в&nbsp;подарок</span></div>
-    <div class="arrow"></div>
-    <div class="form">
-      <div class="lbl">Введи свою почту, чтобы получить запись мастер-класса и консультацию:</div>
-      <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
-        <div class="form-group">
-          <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
-        </div>
-        <input type="hidden" name="mailchimp-product-interest-id" value="{{ page.mailchimp-product-interest-id }}" />
-        <input type="hidden" name="trello-list-id" value="{{ page.trello-list-id }}" />
-        <input type="hidden" name="redirect" value="{{ page.redirect }}" />
-        <button type="submit" class="btn btn-warning"><span>Получить</span></button>
-      </form>
+    <h1 class="event-type">Запись мастер-класса Николая Воробьёва</h1>
+    <p><button class="btn btn-primary" target="_blank" href="{{ page.href }}">Получить консультацию в подарок</button></p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="video">
+      <iframe style='border: 1px solid #666666' width="700" height="400" src="http://www.youtube.com/embed/YQAoiw_nKRA" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h1>Хочешь развиваться?</h1>
+    <p>Привет, это Николай Воробьёв, основатель и главный тренер компании «ПроРеальность»</p>
+
+    <p>Раз ты заинтересовался этим мастер-классом, скорее всего, это значит, что ты <b>хочешь развиваться и ищешь решение какого-то важного вопроса</b> или проблемы.</p>
+
+    <p>Я помогаю людям выходить за рамки своих возможностей, достигать большего, становиться счастливыми и довольными собой.</p>
+
+    <p>Таким же людям, как и ты.</p>
+
+    <img class="img-responsive" src="https://pp.vk.me/c943/u156951/142157306/z_54dbd4f6.jpg"/>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h1>Приглашаю на консультацию</h1>
+    <p>Поэтому я приглашаю тебя на персональную онлайн-консультацию, на которой мы:</p>
+
+    <ul>
+      <li>выясним, что у тебя происходит сейчас</li>
+      <li>разберемся, что у тебя не работает</li>
+      <li>выявим важные для тебя вопросы</li>
+      <li>поймём, чего ты хочешь на самом деле</li>
+      <li>подскажем, как тебе разобраться с проблемами и покажем, куда двигаться</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h1>Заполни анкету</h1>
+    <div class="row">
+      <div class="col-xs-6">
+        <p>После заполнения анкеты в ближайшее время с тобой свяжется тренер компании Кирилл Дудинский. Он проведёт диагностику твоей проблемы и подскажет дальнейшие шаги по её решению.</p>
+
+        <p>Ты увидишь взгляд эксперта на свою текущую ситуацию и получишь практические рекомендации по её улучшении.</p>
+
+        <button class="btn btn-danger" target="_blank" href="{{ page.href }}">Заполнить анкету</button>
+      </div>
+      <div class="col-xs-6">
+        <img class="img-responsive" src="https://pp.vk.me/c943/u156951/142157306/z_57575c38.jpg"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h1>О себе</h1>
+
+    <p>Пару слов о себе, чтобы ты мог понять, имеет ли смысл доверять мне и верить моему опыту.</p>
+
+    <p>Я тренирую людей уже более 12 лет, с 2004 года. Сначала это было просто хобби, а основной деятельностью было владение и управление несколькими бизнесами.</p>
+
+    <p>В какой-то момент я понял, <b>что хочу помогать людям становиться счастливыми, вдохновлёнными и успешными.</b> Именно этому я и решил посвятить себя.</p>
+
+    <p>Поэтому в 2010 году я открыл свою тренинговую компанию «ПроРеальность».</p>
+
+    <p>
+      <b>За время своей тренерской деятельности я:</b>
+      <ul>
+        <li>провел тренинги в более чем 20 городах в 8 странах</li>
+        <li>был автором и ведущим нескольких реалити-шоу, на радио и телевидении</li>
+        <li>тренировал сотрудников Яндекса, Сбербанка, Альфа-Банка, Газпрома и др., а так же большое количество руководителей и собственников бизнеса</li>
+      </ul>
+    </p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h1>Отзывы</h1>
+    <h2 class="review-name">Отзыв Александра Мухина</h2>
+    <div class="row">
+      <div class="col-xs-7">
+        <p>Кирилл, проведенная тобой консультация показала, что ты настоящий профессионал и способен за короткий промежуток времени показать ключевые проблемные точки и дать мощный заряд мотивации. За что тебе и благодарен)</p>
+
+        <p>Понял, что цели, которые ставил, не отвечают моим амбициям и способностям. Что я способен достичь большего быстрее и эффективнее, если просто сформируют план и начну пахать.</p>
+      </div>
+      <div class="col-xs-5">
+        <img class="img-responsive" src="/images/avatar/muhin.jpg"/>
+      </div>
+    </div>
+    <h2 class="review-name">Отзыв Яны Потёмкиной</h2>
+    <div class="row">
+      <div class="col-xs-7">
+        <p>Привет! Меня зовут Яна. Я подписана на Николая Воробьёва, когда-то я смотрела с ним шоу на телеканале 1+1 и мне он очень понравился как коуч. Недавно я нашла его в соц.сети и подписалась на него. Оттуда я узнала, что он выпускает книги и не задумываясь заказала книгу, так как я чувствую, я могу доверять его мышлению и системе донести до моего ума то, что мне надо! К моей радости мне написали и предложили бесплатную онлайн консультацию, чему я дико благодарна, потому что сдвиг в моей голове произошёл!! Спасибо за эту возможность.</p>
+
+        <p>Сдвиг произошёл именно в ту сторону, которая была мне необходима: я очень хотела изменений в жизни и теперь я поняла, в какую сторону нужно двигаться и как.</p>
+
+        <p>Вдохновил меня Кирилл Дудинский (спасибо Кирилл), тренер из команды Воробьёва. Честно говоря, не думала, что один звонок может ТАК открыть глаза. Ещё раз спасибо за эту возможность! Надеюсь, а точнее уверена, увидимся на онлайн курсе.</p>
+      </div>
+      <div class="col-xs-5">
+        <img class="img-responsive" src="https://pp.vk.me/c314130/v314130388/8a4c/4GI1p5Qr-4U.jpg"/>
+      </div>
     </div>
   </div>
 </section>
 
 <section id="author">
   <div class="container">
-    <h1>Ведущий:</h1>
-    <div class="delim"></div>
+    <h1>Записывайся!</h1>
     <div class="row">
       <div class="col-xs-4 left">
         <img src="/images/nickvorobiov-rounded.png"/>
         <h2>Николай Воробьёв</h2>
       </div>
       <div class="col-xs-8">
-        <p class="title">Тренер и коуч <b>с 12-летним стажем,</b> на&nbsp;личном примере доказавший, что жизнь можно и&nbsp;нужно брать в&nbsp;свои руки</p>
-        <p>Помог <b>15&nbsp;тысячам участников</b> стать Победителями в разных сферах жизни</p>
-        <p>Написал и выпустил <b>5&nbsp;книг</b></p>
-        <p>Разработал <b>18&nbsp;эффективных тренингов,</b> с которыми объездил <b>20&nbsp;крупнейших городов</b> Европы и&nbsp;России</p>
-        <p>Внедрил свои программы по&nbsp;мотивации, продажам, переговорам и&nbsp;личной эффективности <b>в сотнях компаний</b></p>
-        <p>Тренирует <b>с&nbsp;2002&nbsp;года,</b> а&nbsp;с&nbsp;2006&nbsp;года регулярно выступает на&nbsp;радио и&nbsp;телевидении в качестве эксперта и&nbsp;ведущего</p>
-        <p>Выступал на телеканалах</p>
-        <img src="/images/partners/channels.png" class="img-responsive" style="max-height: 87px;"/>
-        <p>Обучал сотрудников компаний</p>
-        <img src="/images/partners/companies.png" class="img-responsive" style="max-height: 87px;"/>
-      </div>
-    </div>
-  </div>
-</section>
+        <button class="btn btn-danger" target="_blank" href="{{ page.href }}">Записаться на консультацию</button>
 
-<section id="what">
-  <div class="container">
-    <h1>Мастер-класс поможет тебе:</h1>
-    <div class="row">
-      <div class="col-xs-3">
-        <img src="/images/square-emotions/icon1.png"/>
-        <h2>{{ page.features.one }}</h2>
-      </div>
-      <div class="col-xs-3">
-        <img src="/images/square-emotions/icon2.png"/>
-        <h2>{{ page.features.two }}</h2>
-      </div>
-      <div class="col-xs-3">
-        <img src="/images/square-emotions/icon3.png"/>
-        <h2>{{ page.features.three }}</h2>
-      </div>
-      <div class="col-xs-3">
-        <img src="/images/square-emotions/icon4.png"/>
-        <h2>{{ page.features.four }}</h2>
-      </div>
-    </div>
-  </div>
-</section>
+        <p>
+          С уважением, Николай Воробьёв<br/>
+          Команда ПроРеальность
+        </p>
 
-<section id="cta">
-  <div class="container">
-    <h1>Получи доступ к&nbsp;записи мастер-класса и&nbsp;персональную онлайн-консультацию прямо сейчас!</h1>
-    <h2>Введи адрес своей электронной почты, чтобы получить запись мастер-класса и консультацию в подарок</h2>
-
-    <div class="form">
-      <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
-        <div class="form-group">
-          <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
-        </div>
-        <input type="hidden" name="mailchimp-product-interest-id" value="{{ page.mailchimp-product-interest-id }}" />
-        <input type="hidden" name="trello-list-id" value="{{ page.trello-list-id }}" />
-        <input type="hidden" name="redirect" value="{{ page.redirect }}" />
-        <button type="submit" class="btn btn-warning"><span>Получить</span></button>
-      </form>
+        <p>
+          +7 921 7618506<br/>
+          <a href="mailto:info@prorealnost.com">info@prorealnost.com</a>
+        </p>
+      </div>
     </div>
   </div>
 </section>
