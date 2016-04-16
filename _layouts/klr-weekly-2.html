@@ -11,8 +11,6 @@ permalink: /personal-energy/activity/
   </div>
 </div>
 
-{% capture suffix %}{% if page.no-double-optin %}_no_double_optin{% endif %}{% endcapture %}
-
 <section id="hero">
   <div class="container">
     <h1 class="event-type">{{ page.event.type }}</h1>
@@ -21,7 +19,7 @@ permalink: /personal-energy/activity/
     <div class="arrow"></div>
     <div class="form">
       <div class="lbl">Введи свою почту, чтобы участвовать в мастер-классе:</div>
-      <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect{{ suffix }}.php" method="POST">
+      <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
         <div class="form-group">
           <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
         </div>
@@ -100,7 +98,7 @@ permalink: /personal-energy/activity/
         <h2>Введи адрес своей электронной почты, чтобы получить приглашение</h2>
 
         <div class="form">
-          <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect{{ suffix }}.php" method="POST">
+          <form class="form-inline" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
             <div class="form-group">
               <input type="email" name="email" class="form-control" placeholder="ivan@ivanov.ru" required="required"/>
             </div>
