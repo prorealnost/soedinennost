@@ -1,0 +1,74 @@
+section {
+  padding: 100px 0;
+}
+
+#header-light {
+  padding: 10px 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+
+  img {
+    width: 180px;
+    height: auto;
+    float: left;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 27px;
+  }
+}
+
+#intro {
+  padding-top: 0px;
+
+  text-align: center;
+
+  h1.jumbo {
+    font-size: 60px;
+    color: #d00;
+  }
+}
+
+#situation {
+  background: #fafafa;
+}
+
+#resource {
+  text-align: center;
+
+  .number {
+    font-size: 62px;
+    font-weight: 900;
+    color: #f39c12;
+  }
+}
+
+#effect {
+  background: #fafafa;
+
+  i {
+    color: #f39c12;
+  }
+}
+
+#proof {
+  text-align: center;
+
+  b {
+    color: #d00;
+  }
+}
+
+#action {
+  background: #fafafa;
+  text-align: center;
+}
