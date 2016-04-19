@@ -2,35 +2,33 @@ section {
   padding: 100px 0;
 }
 
-#header-light {
-  padding: 10px 0;
-
-  font-weight: 400;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-  line-height: 23px;
-
-  img {
-    width: 180px;
-    height: auto;
-    float: left;
-  }
-
-  h1 {
-    text-align: center;
-    margin-top: 13px;
-    margin-bottom: 0;
-  }
-
-  p {
-    margin-top: 27px;
-  }
-}
-
 #intro {
   padding-top: 0px;
 
   text-align: center;
+
+  #intro-header {
+    margin: 30px 0 80px 0;
+
+    text-align: left;
+
+    .brand {
+      color: black;
+      font-size: 32px;
+      line-height: 60px;
+
+      img {
+        width: 48px;
+        height: 48px;
+        margin-top: -8px;
+      }
+    }
+
+    .header-right {
+      text-align: right;
+      padding-top: 10px;
+    }
+  }
 
   h1.jumbo {
     font-size: 60px;
