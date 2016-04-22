@@ -1,6 +1,6 @@
 ---
 layout: text-landing
-permalink: /subscriber-consult/
+permalink: /thankyou-consult/
 narrow: true
 title: Подписка подтверждена!
 ---
