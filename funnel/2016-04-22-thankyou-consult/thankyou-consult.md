@@ -35,25 +35,27 @@ title: Подписка подтверждена!
 
 ----
 
-[Для того, чтобы оставить заявку на&nbsp;консультацию, заполни небольшую анкету вот по&nbsp;этой ссылке:](/thankyou-consult-form/)
+<p class="lead text-center">Считаешь, что пора менять свою жизнь?<br/>Тогда записывайся</p>
 
-[Записаться на бесплатную консультацию](/thankyou-consult-form/){: .btn.btn-info.btn-block}
-
-Консультации проводятся по&nbsp;телефону или в&nbsp;скайпе.
+<form class="well" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
+  </div>
+  <div class="form-group">
+    <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
+  </div>
+  <button type="submit" class="btn btn-info btn-block">Записаться на консультацию</button>
+  <input type="hidden" name="trello-list-id" value="569f823006dc53595355c866" />
+  <input type="hidden" name="redirect" value="http://soedinennost.com/consult-ok/" />
+</form>
 
 ----
+
+P.S. Количество консультаций физически ограничено, поэтому записывайся прямо сейчас.
 
 <p class="lead">Консультация <strong>бесплатная,</strong> но&nbsp;есть важное &laquo;но&raquo;:</p>
 
 она пройдёт эффективно только для тех людей, которые **действительно намерены** быстро улучшить свою жизнь. Если ты&nbsp;просто хотел&nbsp;бы &laquo;поболтать за&nbsp;жизнь&raquo;, то&nbsp;лучше не&nbsp;тратить время друг друга.
-
-----
-
-[Кликни сюда, чтобы получить БЕСПЛАТНУЮ консультацию эксперта по&nbsp;личной эффективности прямо сейчас:](/thankyou-consult-form/)
-
-[Записаться на бесплатную консультацию](/thankyou-consult-form/){: .btn.btn-info.btn-block}
-
-P.S. Количество консультаций физически ограничено, поэтому записывайся прямо сейчас.
 
 ----
 
@@ -84,9 +86,13 @@ P.S. Количество консультаций физически огран
 - тренировал сотрудников Яндекса, Сбербанка, Альфа-Банка, Газпрома и&nbsp;других известных компаний
 - а&nbsp;также большое количество руководителей и&nbsp;собственников бизнеса
 
-Но&nbsp;самое главное&nbsp;&mdash; это результаты моих учеников.
+Но&nbsp;самое главное&nbsp;&mdash; это **результаты моих учеников.**
 
 Похвастаюсь некоторыми из&nbsp;них
+
+----
+
+<p class="lead text-center">Результаты моих учеников</p>
 
 ----
 
@@ -128,6 +134,22 @@ P.S. Количество консультаций физически огран
 - нашёл здание под клинику с&nbsp;оплатой аренды только после открытия клиники
 - договорился и&nbsp;получил новейшее оборудование в&nbsp;беспроцентную рассрочку с&nbsp;началом платежей только через полгода после открытия клиники
 - открыл клинику, оплатив только ремонт в&nbsp;здании
+
+----
+
+<p class="lead text-center">Хочешь прорывных результатов в жизни?</p>
+
+<form class="well" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
+  </div>
+  <div class="form-group">
+    <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
+  </div>
+  <button type="submit" class="btn btn-info btn-block">Записаться на консультацию</button>
+  <input type="hidden" name="trello-list-id" value="569f823006dc53595355c866" />
+  <input type="hidden" name="redirect" value="http://soedinennost.com/consult-ok/" />
+</form>
 
 ----
 
@@ -188,9 +210,23 @@ P.S. Количество консультаций физически огран
 
 Ну&nbsp;что, будем считать, что познакомились :)
 
-[Теперь нажми сюда и&nbsp;заполни анкету, чтобы получить БЕСПЛАТНУЮ консультацию эксперта по&nbsp;личной эффективности прямо сейчас:](/thankyou-consult-form/)
+----
 
-[Записаться на бесплатную консультацию](/thankyou-consult-form/){: .btn.btn-info.btn-block}
+<p class="lead text-center">Запишись на консультацию и узнай, как лично ты можешь получить подобные результаты</p>
+
+<form class="well" action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+  <div class="form-group">
+    <input type="text" name="name" class="form-control" placeholder="Имя" required="required"/>
+  </div>
+  <div class="form-group">
+    <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
+  </div>
+  <button type="submit" class="btn btn-info btn-block">Записаться на консультацию</button>
+  <input type="hidden" name="trello-list-id" value="569f823006dc53595355c866" />
+  <input type="hidden" name="redirect" value="http://soedinennost.com/consult-ok/" />
+</form>
+
+----
 
 После этого с&nbsp;тобой свяжется тренер из&nbsp;моей команды Кирилл Дудинский и&nbsp;вы&nbsp;договоритесь о&nbsp;времени проведения бесплатной онлайн консультации (по&nbsp;скайпу или по&nbsp;телефону). Он&nbsp;уточнит детали, даст практические рекомендации и&nbsp;пригласит на&nbsp;тренинг.
 
