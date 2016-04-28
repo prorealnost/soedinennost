@@ -2,7 +2,7 @@
 layout: club
 title: Клуб личностного роста Николая&nbsp;Воробьёва
 subtitle: Как принять и&nbsp;полюбить себя
-permalink: /klr/2016-04-27-acceptance/
+permalink: /enjoy/klr/2016-04-27-acceptance-and-love/
 stream: lEIkuy-TRGE
 event: https://plus.google.com/events/cr60nnsehjavep356bvp9b52vu8
 chat: false
