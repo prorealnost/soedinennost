@@ -2,7 +2,7 @@
 layout: club
 title: Клуб личностного роста Николая&nbsp;Воробьёва
 subtitle: Как перестать тупить в решающие моменты
-permalink: /klr/2016-05-11-netupin/
+permalink: /enjoy/klr/2016-05-11-kak-perestat-tupit/
 stream: I1BiHahvyLo
 event: https://plus.google.com/events/cb00ubkd1ecbp4bcc2qpbknuhkc
 chat: false
