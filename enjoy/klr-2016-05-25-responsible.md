@@ -2,7 +2,7 @@
 layout: club
 title: Клуб личностного роста Николая&nbsp;Воробьёва
 subtitle: Как стать более ответственным, целеустремленным человеком
-permalink: /klr/2016-05-25-responsible/
+permalink: /enjoy/klr/2016-05-25-responsibility/
 stream: N-KQD-1nnlI
 event: https://plus.google.com/events/cs7skg84109h4imj6gie1mcnmk4
 chat: false
