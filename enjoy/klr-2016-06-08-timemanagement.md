@@ -2,7 +2,7 @@
 layout: club
 title: Клуб личностного роста Николая&nbsp;Воробьёва
 subtitle: Тайм-менеджмент
-permalink: /klr/2016-06-08-timemanagement/
+permalink: /enjoy/klr/2016-06-08-time/
 stream: nHI4k0ysC-Y
 event: https://plus.google.com/events/cmifg09bcfd40n51nc4ief8nfgc
 chat: false
