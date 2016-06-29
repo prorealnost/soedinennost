@@ -1,6 +1,6 @@
 ---
 layout: post
-title: КЛР 12 июня 2016 Мастер дискуссий
+title: КЛР 22 июня 2016 Мастер дискуссий
 permalink: /klr-2016-06-22-discuss-summary/
 ---
 
