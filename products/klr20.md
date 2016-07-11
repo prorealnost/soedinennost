@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Клуб личностного роста Николая Воробьёва 2.0
-permalink: /klr/
+permalink: /klr20/
 chat: false
 image: /images/og-image-klr.jpg
 header: 
